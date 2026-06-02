@@ -1,4 +1,4 @@
-const CACHE_NAME = "anesthesia-board-review-v12";
+const CACHE_NAME = "anesthesia-board-review-v13";
 const APP_ASSETS = [
   "index.html",
   "styles.css",

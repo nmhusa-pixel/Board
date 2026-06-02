@@ -42,6 +42,20 @@
 
   let deferredInstallPrompt = null;
 
+  function isStandalone() {
+    return window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone === true;
+  }
+
+  function showInstallFallback() {
+    if (isStandalone()) {
+      window.alert("This app is already running as an installed app.");
+      return;
+    }
+    window.alert(
+      "Desktop install is available from the browser when the PWA prompt is ready. In Chrome or Edge, use the install icon in the address bar or open the browser menu and choose Install App. If this button was clicked immediately after loading, wait a moment and try again."
+    );
+  }
+
   function uniqueValues(key) {
     return [...new Set(questions.map((q) => q[key]).filter(Boolean))].sort();
   }
@@ -257,17 +271,28 @@
   window.addEventListener("beforeinstallprompt", (event) => {
     event.preventDefault();
     deferredInstallPrompt = event;
+    els.installButton.disabled = false;
+    els.installButton.textContent = "Install App";
   });
 
   els.installButton.addEventListener("click", async () => {
     if (!deferredInstallPrompt) {
-      window.alert("To install this app, use your browser's Install App or Add to Home Screen command.");
+      showInstallFallback();
       return;
     }
     deferredInstallPrompt.prompt();
-    await deferredInstallPrompt.userChoice;
+    const choice = await deferredInstallPrompt.userChoice;
     deferredInstallPrompt = null;
-    els.installButton.hidden = true;
+    if (choice.outcome === "accepted") {
+      els.installButton.textContent = "Installed";
+      els.installButton.disabled = true;
+    }
+  });
+
+  window.addEventListener("appinstalled", () => {
+    deferredInstallPrompt = null;
+    els.installButton.textContent = "Installed";
+    els.installButton.disabled = true;
   });
 
   if ("serviceWorker" in navigator) {
