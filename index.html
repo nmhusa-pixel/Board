@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#14645f">
+    <title>Anesthesia Board Review</title>
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="brand-group">
+        <div class="brand-mark" aria-hidden="true">A</div>
+        <div>
+          <p class="eyebrow">Board Review</p>
+          <h1>Anesthesia Board Review</h1>
+          <p class="subtitle">Clinical anesthesia question bank</p>
+        </div>
+      </div>
+      <button id="installButton" class="install-button" type="button">
+        <span aria-hidden="true">+</span>
+        Install App
+      </button>
+    </header>
+
+    <main>
+      <section class="dashboard" aria-label="Question controls">
+        <div class="stats-strip">
+          <div class="stat-card">
+            <span id="questionTotal">0</span>
+            <small>Questions</small>
+          </div>
+          <div class="stat-card">
+            <span id="answeredTotal">0</span>
+            <small>Answered</small>
+          </div>
+          <div class="stat-card">
+            <span id="accuracyTotal">--</span>
+            <small>Accuracy</small>
+          </div>
+        </div>
+
+        <div class="filters">
+          <label>
+            Search
+            <input id="searchInput" type="search" placeholder="Keyword, topic, reference">
+          </label>
+          <label>
+            Category
+            <select id="categoryFilter">
+              <option value="all">All categories</option>
+            </select>
+          </label>
+          <label>
+            Difficulty
+            <select id="difficultyFilter">
+              <option value="all">All levels</option>
+            </select>
+          </label>
+          <label>
+            Mode
+            <select id="modeSelect">
+              <option value="exam">Exam mode</option>
+              <option value="study">Study mode</option>
+            </select>
+          </label>
+        </div>
+      </section>
+
+      <section class="question-layout">
+        <aside class="question-list" aria-label="Question list">
+          <div class="list-header">
+            <strong>Question Bank</strong>
+            <span id="filteredCount">0 shown</span>
+          </div>
+          <div id="questionList"></div>
+        </aside>
+
+        <article class="question-panel" aria-live="polite">
+          <div class="question-panel-header">
+            <div class="question-meta">
+              <span id="questionCategory"></span>
+              <span id="questionDifficulty"></span>
+            </div>
+            <span id="questionPosition" class="question-position"></span>
+          </div>
+          <div class="progress-track" aria-hidden="true">
+            <span id="progressFill"></span>
+          </div>
+          <h2 id="questionTitle">Upload EPUB-derived questions to begin</h2>
+          <p id="questionStem"></p>
+          <div id="answers" class="answers"></div>
+          <div class="actions">
+            <button id="showExplanation" type="button">Show Explanation</button>
+            <button id="nextQuestion" type="button">Next</button>
+          </div>
+          <section id="explanationPanel" class="explanation" hidden>
+            <h3>Explanation</h3>
+            <p id="explanationText"></p>
+            <dl>
+              <div>
+                <dt>Reference</dt>
+                <dd id="referenceText"></dd>
+              </div>
+              <div>
+                <dt>Tags</dt>
+                <dd id="tagText"></dd>
+              </div>
+              <div>
+                <dt>Keywords</dt>
+                <dd id="keywordText"></dd>
+              </div>
+            </dl>
+          </section>
+        </article>
+      </section>
+    </main>
+
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

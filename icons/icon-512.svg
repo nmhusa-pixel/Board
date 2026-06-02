@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Anesthesia Board Review icon">
+  <rect width="512" height="512" rx="76" fill="#14645f"/>
+  <path d="M128 326c0-69 56-125 125-125h24c69 0 125 56 125 125v27H128v-27Z" fill="#f7faf9"/>
+  <path d="M187 197c0-43 35-78 78-78s78 35 78 78v48H187v-48Z" fill="#d8e2df"/>
+  <path d="M224 315h86M267 272v86" stroke="#14645f" stroke-width="32" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,23 @@
+{
+  "epub": "C:\\Users\\Administrator\\Documents\\Codex\\Barash, Cullen, and Stoelting's Clinical Anesthesia, 9e.epub",
+  "tocItemsUsed": 2000,
+  "questionCount": 2000,
+  "duplicateSourceReferences": 0,
+  "categories": {
+    "monitoring": 160,
+    "cardiothoracic": 412,
+    "pharmacology": 487,
+    "pain": 50,
+    "critical care": 154,
+    "airway": 173,
+    "neuroanesthesia": 158,
+    "regional": 163,
+    "obstetric": 101,
+    "pediatric": 142
+  },
+  "difficulties": {
+    "introductory": 664,
+    "intermediate": 668,
+    "advanced": 668
+  }
+}
