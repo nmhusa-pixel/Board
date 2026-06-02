@@ -42,27 +42,17 @@
 
   let deferredInstallPrompt = null;
 
-  function isStandalone() {
+  function isInstalledApp() {
     return window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone === true;
   }
 
-  function showInstallFallback() {
-    if (isStandalone()) {
-      window.alert("This app is already running as an installed app.");
-      return;
-    }
-    window.alert(
-      "Desktop install is available from the browser when the PWA prompt is ready. In Chrome or Edge, use the install icon in the address bar or open the browser menu and choose Install App. If this button was clicked immediately after loading, wait a moment and try again."
-    );
-  }
-
   function updateInstallButton() {
-    if (isStandalone()) {
+    if (isInstalledApp()) {
       els.installButton.textContent = "Installed";
       els.installButton.disabled = true;
       return;
     }
-    els.installButton.textContent = "Install App";
+    els.installButton.textContent = "Install now";
     els.installButton.disabled = false;
   }
 
@@ -285,19 +275,15 @@
   });
 
   els.installButton.addEventListener("click", async () => {
+    if (isInstalledApp()) return;
     if (!deferredInstallPrompt) {
-      showInstallFallback();
+      window.alert("To install, open this app from HTTPS or localhost. On iPhone or iPad, use Share > Add to Home Screen.");
       return;
     }
     deferredInstallPrompt.prompt();
-    const choice = await deferredInstallPrompt.userChoice;
+    await deferredInstallPrompt.userChoice;
     deferredInstallPrompt = null;
-    if (choice.outcome === "accepted") {
-      els.installButton.textContent = "Installed";
-      els.installButton.disabled = true;
-    } else {
-      updateInstallButton();
-    }
+    updateInstallButton();
   });
 
   window.addEventListener("appinstalled", () => {
@@ -309,7 +295,7 @@
 
   if ("serviceWorker" in navigator && ["http:", "https:"].includes(window.location.protocol)) {
     window.addEventListener("load", () => {
-      navigator.serviceWorker.register("./sw.js?v=15").then((registration) => {
+      navigator.serviceWorker.register("./sw.js?v=17").then((registration) => {
         registration.update();
       }).catch(() => {
         // The app still works online when service worker registration is unavailable.

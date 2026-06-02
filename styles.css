@@ -123,6 +123,25 @@ h1 {
   padding: .68rem .95rem;
 }
 
+.header-actions {
+  align-items: center;
+  display: flex;
+  gap: .7rem;
+}
+
+.build-chip {
+  background: var(--quiet);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  display: inline-flex;
+  font-size: .78rem;
+  font-weight: 850;
+  line-height: 1;
+  padding: .48rem .68rem;
+  white-space: nowrap;
+}
+
 .install-button {
   background: var(--accent);
   color: white;
@@ -534,6 +553,15 @@ dd {
 
   .install-button {
     width: 100%;
+  }
+
+  .header-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .build-chip {
+    justify-content: center;
   }
 
   .stats-strip {

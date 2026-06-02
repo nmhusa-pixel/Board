@@ -1,20 +1,20 @@
-const CACHE_NAME = "anesthesia-board-review-v16-legacy-escape";
+const CACHE_NAME = "anesthesia-board-review-v17-legacy-escape";
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./styles.css?v=16",
-  "./questions.js?v=16",
-  "./app.js?v=16",
-  "./manifest.webmanifest?v=16",
+  "./styles.css?v=17",
+  "./questions.js?v=17",
+  "./app.js?v=17",
+  "./manifest.webmanifest?v=17",
   "./manifest.json",
-  "./sw.js?v=16",
-  "./icons/favicon-32.png?v=16",
-  "./icons/favicon-48.png?v=16",
-  "./icons/apple-touch-icon.png?v=16",
-  "./icons/icon-192.png?v=16",
-  "./icons/icon-512.png?v=16",
-  "./icons/icon-192.svg?v=16",
-  "./icons/header-logo.svg?v=16",
+  "./sw.js?v=17",
+  "./icons/favicon-32.png?v=17",
+  "./icons/favicon-48.png?v=17",
+  "./icons/apple-touch-icon.png?v=17",
+  "./icons/icon-192.png?v=17",
+  "./icons/icon-512.png?v=17",
+  "./icons/icon-192.svg?v=17",
+  "./icons/header-logo.svg?v=17",
   "./icons/icon-512.svg"
 ];
 
