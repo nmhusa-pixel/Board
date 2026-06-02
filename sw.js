@@ -1,18 +1,19 @@
-const CACHE_NAME = "anesthesia-board-review-v15-anticoag-pattern";
+const CACHE_NAME = "anesthesia-board-review-v16-header-icon";
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./styles.css?v=15",
-  "./questions.js?v=15",
-  "./app.js?v=15",
-  "./manifest.webmanifest?v=15",
+  "./styles.css?v=16",
+  "./questions.js?v=16",
+  "./app.js?v=16",
+  "./manifest.webmanifest?v=16",
   "./manifest.json",
-  "./icons/favicon-32.png?v=15",
-  "./icons/favicon-48.png?v=15",
-  "./icons/apple-touch-icon.png?v=15",
-  "./icons/icon-192.png?v=15",
-  "./icons/icon-512.png?v=15",
-  "./icons/icon-192.svg?v=15",
+  "./icons/favicon-32.png?v=16",
+  "./icons/favicon-48.png?v=16",
+  "./icons/apple-touch-icon.png?v=16",
+  "./icons/icon-192.png?v=16",
+  "./icons/icon-512.png?v=16",
+  "./icons/icon-192.svg?v=16",
+  "./icons/header-logo.svg?v=16",
   "./icons/icon-512.svg"
 ];
 
