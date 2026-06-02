@@ -1,23 +1,3768 @@
 {
-  "epub": "C:\\Users\\Administrator\\Documents\\Codex\\Barash, Cullen, and Stoelting's Clinical Anesthesia, 9e.epub",
-  "tocItemsUsed": 2000,
+  "guideEpub": "C:\\Users\\Administrator\\Documents\\Codex\\Anesthesia_ A Comprehensive Review E-Book (Anesthesia a -- Mayo Foundation for Medical Education, Brian A_ Hall, Robert -- 6th Edition, 2019.epub",
   "questionCount": 2000,
-  "duplicateSourceReferences": 0,
+  "generation": "Mayo review-guided paraphrased board-style bank",
+  "duplicateGeneratedItems": 0,
+  "blueprintChapters": [
+    {
+      "file": "text/part0007_split_001.html",
+      "title": "Anesthesia Equipment and Physics",
+      "qFrom": 1,
+      "qTo": 90,
+      "declaredCount": 90,
+      "detectedQuestions": 84,
+      "category": "monitoring",
+      "keywords": "equipment, physics, monitoring",
+      "questions": [
+        {
+          "number": 1,
+          "focus": "intensive care extubated recovering acute respiratory distress syndrome ARDS"
+        },
+        {
+          "number": 2,
+          "focus": "color Doppler imaging"
+        },
+        {
+          "number": 3,
+          "focus": "When pressure gauge size compressed-gas cylinder containing N2O begins"
+        },
+        {
+          "number": 4,
+          "focus": "What percent desflurane present vaporizing chamber desflurane vaporizer pressurized"
+        },
+        {
+          "number": 5,
+          "focus": "internal diameter intravenous catheter were doubled flow through catheter"
+        },
+        {
+          "number": 6,
+          "focus": "size compressed-gas cylinder completely filled N2O contains many liters"
+        },
+        {
+          "number": 7,
+          "focus": "methods used detect leaks low-pressure circuit contemporary machines"
+        },
+        {
+          "number": 8,
+          "focus": "valves prevents transfilling between compressed-gas cylinders"
+        },
+        {
+          "number": 9,
+          "focus": "driving force ventilator Datex-Ohmeda workstation accomplished"
+        },
+        {
+          "number": 10,
+          "focus": "pressure gauge size compressed-gas cylinder containing reads long delivered"
+        },
+        {
+          "number": 11,
+          "focus": "healthy anesthetized femoral hernia repair maintained isoflurane N2O lungs"
+        },
+        {
+          "number": 12,
+          "focus": "pressure-sensor shutoff valve requires what pressure remain open allow"
+        },
+        {
+          "number": 13,
+          "focus": "anesthetized resection liver tumor induction tracheal intubation gauge arterial"
+        },
+        {
+          "number": 14,
+          "focus": "second-stage pressure regulator delivers constant pressure rotameters"
+        },
+        {
+          "number": 15,
+          "focus": "called assist colleague notes large leak circuit Very high"
+        },
+        {
+          "number": 16,
+          "focus": "sevoflurane vaporizer will deliver accurate concentration unknown volatile latter"
+        },
+        {
+          "number": 17,
+          "focus": "severe shortness breath wheezing examination found have inspiratory expiratory"
+        },
+        {
+          "number": 18,
+          "focus": "Concerning Question administration helium instead will decrease resistance airflow"
+        },
+        {
+          "number": 19,
+          "focus": "operating replacement stenotic aortic valve awake gauge arterial catheter"
+        },
+        {
+          "number": 20,
+          "focus": "admixture waste disposal system appendectomy paralyzed mechanically ventilated volatile"
+        },
+        {
+          "number": 21,
+          "focus": "Automated noninvasive blood pressure ANIBP devices calculate using proprietary"
+        },
+        {
+          "number": 22,
+          "focus": "Currently commonly used vaporizers GE-Datex-Ohmeda Vapor series described having"
+        },
+        {
+          "number": 23,
+          "focus": "given concentration volatile splitting ratio dependent characteristics that volatile"
+        },
+        {
+          "number": 24,
+          "focus": "Monday morning absorbent granules your machine used last hours"
+        },
+        {
+          "number": 25,
+          "focus": "pre-anesthesia checkout delivery system mounted oxygen cylinder shown have"
+        },
+        {
+          "number": 26,
+          "focus": "monitors utilize high- low-frequency filters reduce noise artifact reduced"
+        },
+        {
+          "number": 27,
+          "focus": "machine discovered Monday morning have oxygen weekend long reasonable"
+        },
+        {
+          "number": 28,
+          "focus": "According National Institute Occupational Safety Health NIOSH regulations highest"
+        },
+        {
+          "number": 29,
+          "focus": "device machines that reliably detects delivery hypoxic mixtures"
+        },
+        {
+          "number": 30,
+          "focus": "ventilator pressure-relief valve stuck closed position result"
+        },
+        {
+          "number": 31,
+          "focus": "mixture isoflurane N2O administered minutes expired isoflurane concentration measured"
+        },
+        {
+          "number": 32,
+          "focus": "capnogram waveform represents situations Genderingen Computer-assisted capnogram analysis Clin"
+        },
+        {
+          "number": 33,
+          "focus": "perioperative decision-making"
+        },
+        {
+          "number": 34,
+          "focus": "N2O compressed-gas cylinder enters machine through pressure regulator that"
+        },
+        {
+          "number": 35,
+          "focus": "protection staff needed when laser performed Clear wraparound goggles"
+        },
+        {
+          "number": 36,
+          "focus": "systems prevents attachment gas-administering equipment wrong type line"
+        },
+        {
+          "number": 37,
+          "focus": "pacemaker-dependent comes pacemaker programmed mode Extracorporeal shock wave lithotripsy"
+        },
+        {
+          "number": 38,
+          "focus": "dial isoflurane-specific variable bypass temperature-compensated flowover out-of-circuit vaporizer modern"
+        },
+        {
+          "number": 39,
+          "focus": "result greatest decrease arterial hemoglobin saturation Spo2 value measured"
+        },
+        {
+          "number": 40,
+          "focus": "recovering motor vehicle accident continuously being assessed transcutaneous CO2"
+        },
+        {
+          "number": 41,
+          "focus": "combinations result delivery lower-than-expected concentration volatile"
+        },
+        {
+          "number": 42,
+          "focus": "high altitudes flow through rotameter will"
+        },
+        {
+          "number": 43,
+          "focus": "presents knee arthroscopy tells anesthesiologist that pacemaker this pacemaker"
+        },
+        {
+          "number": 44,
+          "focus": "result less trace pollution atmosphere EXCEPT"
+        },
+        {
+          "number": 45,
+          "focus": "greatest source contamination atmosphere leakage volatile anesthetics"
+        },
+        {
+          "number": 46,
+          "focus": "Uptake sevoflurane lungs first minute much sevoflurane taken lungs"
+        },
+        {
+          "number": 47,
+          "focus": "drugs have impact somatosensory evoked potentials SSEPs monitoring scoliosis"
+        },
+        {
+          "number": 48,
+          "focus": "found low-pressure circuit machine"
+        },
+        {
+          "number": 49,
+          "focus": "Frost outside N2O compressed-gas cylinder This phenomenon indicates that"
+        },
+        {
+          "number": 50,
+          "focus": "reliable site central temperature monitoring"
+        },
+        {
+          "number": 51,
+          "focus": "medical lasers laser light penetrates tissues"
+        },
+        {
+          "number": 52,
+          "focus": "supraglottic airway devices features built-in bite block channel nasogastric"
+        },
+        {
+          "number": 53,
+          "focus": "maximum Fio2 that delivered nasal cannula"
+        },
+        {
+          "number": 54,
+          "focus": "administered otherwise healthy repair right inguinal hernia mechanical ventilation"
+        },
+        {
+          "number": 55,
+          "focus": "color nail polish have greatest effect accuracy dual-wavelength pulse"
+        },
+        {
+          "number": 56,
+          "focus": "minimum macroshock current required elicit ventricular fibrillation"
+        },
+        {
+          "number": 57,
+          "focus": "line isolation monitor"
+        },
+        {
+          "number": 58,
+          "focus": "Kinking occlusion transfer tubing breathing circuit closed scavenging system"
+        },
+        {
+          "number": 59,
+          "focus": "reason burned return energy electrosurgical Bovie that"
+        },
+        {
+          "number": 60,
+          "focus": "noninvasive arterial monitoring devices"
+        },
+        {
+          "number": 61,
+          "focus": "When electrocardiogram electrodes placed magnetic resonance imaging scan"
+        },
+        {
+          "number": 62,
+          "focus": "reasons accounts capnography tracing depicted this figure Adapted Szocik"
+        },
+        {
+          "number": 63,
+          "focus": "frequent cause mechanical failure delivery system deliver adequate"
+        },
+        {
+          "number": 64,
+          "focus": "esophageal detector device"
+        },
+        {
+          "number": 65,
+          "focus": "reason CO2 measured capnometer less than arterial Paco2 value"
+        },
+        {
+          "number": 66,
+          "focus": "arrangements rotameters machine manifold safest left-to-right flow"
+        },
+        {
+          "number": 67,
+          "focus": "Datex-Ohmeda vaporizer tipped over while being attached machine placed"
+        },
+        {
+          "number": 68,
+          "focus": "event misfilling what percent sevoflurane delivered isoflurane vaporizer"
+        },
+        {
+          "number": 69,
+          "focus": "long vaporizer filled volatile deliver isoflurane total flow"
+        },
+        {
+          "number": 70,
+          "focus": "Raising frequency ultrasound transducer used line regional will result"
+        },
+        {
+          "number": 71,
+          "focus": "fundamental difference between microshock macroshock related"
+        },
+        {
+          "number": 72,
+          "focus": "Intraoperative awareness eliminated closely monitoring"
+        },
+        {
+          "number": 73,
+          "focus": "mechanically ventilated transported using portable ventilator that consumes oxygen"
+        },
+        {
+          "number": 74,
+          "focus": "ventilated rate breaths positive end-expiratory pressure PEEP H2O laparoscopic"
+        },
+        {
+          "number": 75,
+          "focus": "pressure volume minute delivered central hospital oxygen supply"
+        },
+        {
+          "number": 76,
+          "focus": "normal laminar airflow resistance dependent characteristic oxygen"
+        },
+        {
+          "number": 77,
+          "focus": "oxygen cylinder were being used source oxygen remote anesthetizing"
+        },
+        {
+          "number": 78,
+          "focus": "induction intubation confirmation tracheal saturation begins fall analyzer shows"
+        },
+        {
+          "number": 79,
+          "focus": "location lead"
+        },
+        {
+          "number": 80,
+          "focus": "diameter index safety system refers interface between"
+        },
+        {
+          "number": 81,
+          "focus": "Each cited advantage calcium hydroxide lime Amsorb Plus gersorb"
+        },
+        {
+          "number": 82,
+          "focus": "arrows figure indicate Mark Atlas Cardiovascular Monitoring York Churchill"
+        },
+        {
+          "number": 83,
+          "focus": "laparoscopic cholecystectomy exhaled CO2 inhaled CO2 explanation account inhaled"
+        },
+        {
+          "number": 84,
+          "focus": "Helium Nitrogen CO2"
+        }
+      ]
+    },
+    {
+      "file": "text/part0008_split_001.html",
+      "title": "Respiratory Physiology and Critical Care Medicine",
+      "qFrom": 91,
+      "qTo": 168,
+      "declaredCount": 78,
+      "detectedQuestions": 78,
+      "category": "critical care",
+      "keywords": "respiratory physiology, ventilation, ICU",
+      "questions": [
+        {
+          "number": 91,
+          "focus": "intensive care drug overdose placed ventilator tidal volume rate"
+        },
+        {
+          "number": 92,
+          "focus": "mechanically ventilated intensive care open nephrectomy suction catheter inserted"
+        },
+        {
+          "number": 93,
+          "focus": "Maximizing lung parameters important factor prevention postoperative pulmonary complications"
+        },
+        {
+          "number": 94,
+          "focus": "coronary artery pulmonary artery catheter place yields data central"
+        },
+        {
+          "number": 95,
+          "focus": "myocardial infarction months earlier repair abdominal aortic aneurysm When"
+        },
+        {
+          "number": 96,
+          "focus": "Calculate body mass index feet inches tall weighs"
+        },
+        {
+          "number": 97,
+          "focus": "normal FEV1 ratio"
+        },
+        {
+          "number": 98,
+          "focus": "Direct current cardioversion useful therefore indicated unstable"
+        },
+        {
+          "number": 99,
+          "focus": "first minute apnea Paco2 will rise"
+        },
+        {
+          "number": 100,
+          "focus": "Potential complications associated total parenteral nutrition include EXCEPT"
+        },
+        {
+          "number": 101,
+          "focus": "requirement adult"
+        },
+        {
+          "number": 102,
+          "focus": "composed"
+        },
+        {
+          "number": 103,
+          "focus": "statements correctly defines relationship between minute ventilation dead space"
+        },
+        {
+          "number": 104,
+          "focus": "sustained closed head injury operating dural bolt Hemoglobin been"
+        },
+        {
+          "number": 105,
+          "focus": "Inhalation CO2 increases"
+        },
+        {
+          "number": 106,
+          "focus": "RIFLE criteria designed predict mortality"
+        },
+        {
+          "number": 107,
+          "focus": "Each will cause erroneous readings dual-wavelength pulse oximeters EXCEPT"
+        },
+        {
+          "number": 108,
+          "focus": "diagram curve represents"
+        },
+        {
+          "number": 109,
+          "focus": "P50 normal adult hemoglobin approximately"
+        },
+        {
+          "number": 110,
+          "focus": "normal breath transpulmonary pressure increases H2O product transpulmonary pressure"
+        },
+        {
+          "number": 111,
+          "focus": "palliative care"
+        },
+        {
+          "number": 112,
+          "focus": "normal vital capacity"
+        },
+        {
+          "number": 113,
+          "focus": "found unconscious fire department where inhaled carbon monoxide prolonged"
+        },
+        {
+          "number": 114,
+          "focus": "acute increase Paco2 will result decrease"
+        },
+        {
+          "number": 115,
+          "focus": "college student complex regional pain syndrome CRPS left foot"
+        },
+        {
+          "number": 116,
+          "focus": "blood gases explained disorder Paco2 HCO3"
+        },
+        {
+          "number": 117,
+          "focus": "diagram depicts mode ventilation"
+        },
+        {
+          "number": 118,
+          "focus": "pack-year smoking total laryngectomy treatment laryngeal squamous cell carcinoma"
+        },
+        {
+          "number": 119,
+          "focus": "P50 sickle cell hemoglobin"
+        },
+        {
+          "number": 120,
+          "focus": "Data ARDS network trial ARDSNet showed increased mortality"
+        },
+        {
+          "number": 121,
+          "focus": "mathematical expression Fick diffusion through lipid membrane rate diffusion"
+        },
+        {
+          "number": 122,
+          "focus": "Each decreased elderly compared their younger counterparts EXCEPT"
+        },
+        {
+          "number": 123,
+          "focus": "Calculate ratio physiologic dead space ventilation based data Paco2"
+        },
+        {
+          "number": 124,
+          "focus": "statements concerning distribution CO2 upright lungs"
+        },
+        {
+          "number": 125,
+          "focus": "acid-base disturbances well-compensated"
+        },
+        {
+          "number": 126,
+          "focus": "What calculated Pao2 Denver Colorado Assume barometric pressure respiratory"
+        },
+        {
+          "number": 127,
+          "focus": "venous blood sample sites correlate reliably Pao2 Paco2"
+        },
+        {
+          "number": 128,
+          "focus": "pulmonary function tests dependent effort"
+        },
+        {
+          "number": 129,
+          "focus": "carboxyhemoglobin treatment smoke inhalation consistent diagnosis carbon monoxide poisoning"
+        },
+        {
+          "number": 130,
+          "focus": "PAO2 PaO2 breathing estimated fraction cardiac output shunted past"
+        },
+        {
+          "number": 131,
+          "focus": "Each will alter position slope CO2-ventilatory response curve EXCEPT"
+        },
+        {
+          "number": 132,
+          "focus": "statements concerning distribution alveolar ventilation upright lungs"
+        },
+        {
+          "number": 133,
+          "focus": "resting adult what percentage total body consumption work breathing"
+        },
+        {
+          "number": 134,
+          "focus": "anatomic dead space"
+        },
+        {
+          "number": 135,
+          "focus": "important buffering system body"
+        },
+        {
+          "number": 136,
+          "focus": "decrease will result"
+        },
+        {
+          "number": 137,
+          "focus": "rescued house fire noted have major burns involving body"
+        },
+        {
+          "number": 138,
+          "focus": "ulcerative colitis colon resection ileostomy lungs mechanically ventilated parameters"
+        },
+        {
+          "number": 139,
+          "focus": "Each will shift oxyhemoglobin dissociation curve right EXCEPT"
+        },
+        {
+          "number": 140,
+          "focus": "half-life carboxyhemoglobin breathing"
+        },
+        {
+          "number": 141,
+          "focus": "disadvantage using propofol prolonged sedation days intubated potential"
+        },
+        {
+          "number": 142,
+          "focus": "type diabetic renal failure preoperative holding area awaiting acute"
+        },
+        {
+          "number": 143,
+          "focus": "Methods decrease incidence central venous catheter infections include EXCEPT"
+        },
+        {
+          "number": 144,
+          "focus": "Signs Sarin nerve poisoning include EXCEPT"
+        },
+        {
+          "number": 145,
+          "focus": "conditions associated risk venous embolism removal central line"
+        },
+        {
+          "number": 146,
+          "focus": "adverse effects attributable respiratory metabolic acidosis"
+        },
+        {
+          "number": 147,
+          "focus": "maneuvers raise arterial saturation whom endotracheal tube seated right"
+        },
+        {
+          "number": 148,
+          "focus": "hours status post four-vessel coronary artery bypass graft pulmonary"
+        },
+        {
+          "number": 149,
+          "focus": "cause rightward shift oxyhemoglobin dissociation curve"
+        },
+        {
+          "number": 150,
+          "focus": "operating hour motor vehicle accident spinal cord transection ruptured"
+        },
+        {
+          "number": 151,
+          "focus": "sustaining traumatic brain injury polyuria plasma sodium concentration What"
+        },
+        {
+          "number": 152,
+          "focus": "drugs choice treating hypotension setting severe acidemia"
+        },
+        {
+          "number": 153,
+          "focus": "end-tidal CO2 measured infrared spectrometer arterial blood sample drawn"
+        },
+        {
+          "number": 154,
+          "focus": "transfusion-related acute lung injury TRALI reaction suspected hour scoliosis"
+        },
+        {
+          "number": 155,
+          "focus": "central line located superior vena cava withdrawn such that"
+        },
+        {
+          "number": 156,
+          "focus": "time course anticoagulation therapy variable different percutaneous coronary interventions"
+        },
+        {
+          "number": 157,
+          "focus": "intubated ventilated some PEEP second period initiates spontaneous breaths"
+        },
+        {
+          "number": 158,
+          "focus": "features suggestive weaponized anthrax exposure opposed common flu-like viral"
+        },
+        {
+          "number": 159,
+          "focus": "factors explain Pao2 breathing mixture nitrous oxide oxygen"
+        },
+        {
+          "number": 160,
+          "focus": "left hepatectomy isoflurane arterial blood gases CO2 saturation same"
+        },
+        {
+          "number": 161,
+          "focus": "circumstances energy expenditure greatest"
+        },
+        {
+          "number": 162,
+          "focus": "amiodarone Cordarone"
+        },
+        {
+          "number": 163,
+          "focus": "awaiting orthotopic liver transplantation primary biliary cirrhosis oximetric pulmonary"
+        },
+        {
+          "number": 164,
+          "focus": "ventilator Rate H2O PEEP respiratory therapist notes that measured"
+        },
+        {
+          "number": 165,
+          "focus": "polycystic liver disease hour right hepatectomy units packed cells"
+        },
+        {
+          "number": 166,
+          "focus": "appropriate noninvasive positive-pressure ventilation NIPPV"
+        },
+        {
+          "number": 167,
+          "focus": "asthmatic drunk driver comes into being motor vehicle accident"
+        },
+        {
+          "number": 168,
+          "focus": "undergone hour abdominal surgical procedure sent intubated postoperative monitoring"
+        }
+      ]
+    },
+    {
+      "file": "text/part0009_split_002.html",
+      "title": "Questions on pharmacology and drug used in anesthesia or related to anesthesia. Keywords: induction agents; muscle relaxants; antibiotics; antihypertensives",
+      "qFrom": 169,
+      "qTo": 282,
+      "declaredCount": 114,
+      "detectedQuestions": 114,
+      "category": "pharmacology",
+      "keywords": "board review",
+      "questions": [
+        {
+          "number": 169,
+          "focus": "muscle relaxants eliminated renal excretion"
+        },
+        {
+          "number": 170,
+          "focus": "conditions develop when using propofol prolonged sedation intensive care"
+        },
+        {
+          "number": 171,
+          "focus": "scenario dantrolene withheld whom malignant hyperthermia suspected"
+        },
+        {
+          "number": 172,
+          "focus": "Parkinson disease cataract recovery episodes emesis complains severe nausea"
+        },
+        {
+          "number": 173,
+          "focus": "diseases associated increased resistance neuromuscular blockade succinylcholine"
+        },
+        {
+          "number": 174,
+          "focus": "Sedation drugs resemble normal sleep"
+        },
+        {
+          "number": 175,
+          "focus": "intravenous anesthetics converted water-soluble lipid-soluble drug exposure bloodstream"
+        },
+        {
+          "number": 176,
+          "focus": "operating resection anterior pituitary prolactin-secreting tumor induced sevoflurane nitrous"
+        },
+        {
+          "number": 177,
+          "focus": "antihypertensive therapy propranolol increased risk each EXCEPT"
+        },
+        {
+          "number": 178,
+          "focus": "Atropine causes each EXCEPT"
+        },
+        {
+          "number": 179,
+          "focus": "drugs capable crossing blood-brain barrier"
+        },
+        {
+          "number": 180,
+          "focus": "drug exerts main central nervous system action inhibiting N-methyl-D-aspartate"
+        },
+        {
+          "number": 181,
+          "focus": "opioid-receptor agonists anticholinergic properties"
+        },
+        {
+          "number": 182,
+          "focus": "statements ketamine"
+        },
+        {
+          "number": 183,
+          "focus": "vasopressor agents increases systemic blood pressure indirectly stimulating release"
+        },
+        {
+          "number": 184,
+          "focus": "Methadone-induced constipation reversed without loss analgesic effect opioid antagonists"
+        },
+        {
+          "number": 185,
+          "focus": "treatment human immunodeficiency virus include indinavir nelfinavir ritonavir What"
+        },
+        {
+          "number": 186,
+          "focus": "Neurokinin-1 NK1 antagonists such aprepitant have properties EXCEPT"
+        },
+        {
+          "number": 187,
+          "focus": "drugs administered caution echothiophate treatment glaucoma"
+        },
+        {
+          "number": 188,
+          "focus": "When four thumb twitches train-of-four stimulation ulnar nerve elicited"
+        },
+        {
+          "number": 189,
+          "focus": "muscle relaxants causes slight histamine release three times ED95"
+        },
+        {
+          "number": 190,
+          "focus": "Termination action neurotransmitter norepinephrine achieved predominately mechanism"
+        },
+        {
+          "number": 191,
+          "focus": "incidence unpleasant dreams associated emergence ketamine reduced administration"
+        },
+        {
+          "number": 192,
+          "focus": "principal advantage Ryanodex over conventional formulations dantrolene"
+        },
+        {
+          "number": 193,
+          "focus": "Eplerenone Inspra inhibits renin-angiotensin-aldosterone system mechanism"
+        },
+        {
+          "number": 194,
+          "focus": "Each drugs enhance neuromuscular blockade produced nondepolarizing muscle relaxants"
+        },
+        {
+          "number": 195,
+          "focus": "primary site action lisinopril"
+        },
+        {
+          "number": 196,
+          "focus": "Circulating B-type natriuretic peptide powerful biomarker predicting outcomes"
+        },
+        {
+          "number": 197,
+          "focus": "Hyperkalemia risk succinylcholine"
+        },
+        {
+          "number": 198,
+          "focus": "antibiotics does augment neuromuscular blockade"
+        },
+        {
+          "number": 199,
+          "focus": "ascites hepatopulmonary syndrome bleeding esophageal varices therapies improve symptoms"
+        },
+        {
+          "number": 200,
+          "focus": "succinylcholine administered anesthetized intubation remains paralyzed minutes parameters consistent"
+        },
+        {
+          "number": 201,
+          "focus": "situations succinylcholine cause severe hyperkalemia"
+        },
+        {
+          "number": 202,
+          "focus": "common minor side effect reported flumazenil administration"
+        },
+        {
+          "number": 203,
+          "focus": "Ketorolac"
+        },
+        {
+          "number": 204,
+          "focus": "acute intermittent porphyria knee arthroscopy drugs contraindicated this"
+        },
+        {
+          "number": 205,
+          "focus": "discharged tooth extraction molars only medication paroxetine Paxil takes"
+        },
+        {
+          "number": 206,
+          "focus": "etomidate were accidentally injected into left-sided radial arterial line"
+        },
+        {
+          "number": 207,
+          "focus": "important reason more rapid onset shorter duration action fentanyl"
+        },
+        {
+          "number": 208,
+          "focus": "narcotic infusion initiated without bolus loading dose drugs reach"
+        },
+        {
+          "number": 209,
+          "focus": "period vulnerability three courses bleomycin testicular cancer"
+        },
+        {
+          "number": 210,
+          "focus": "unique advantage rocuronium over other muscle relaxants"
+        },
+        {
+          "number": 211,
+          "focus": "statements efficacy neuromuscular blockade setting acute hypokalemia"
+        },
+        {
+          "number": 212,
+          "focus": "operations highest risk operative recall"
+        },
+        {
+          "number": 213,
+          "focus": "emergency symptoms miosis abdominal cramping salivation loss bowel bladder"
+        },
+        {
+          "number": 214,
+          "focus": "Flumazenil"
+        },
+        {
+          "number": 215,
+          "focus": "What percentage neuromuscular receptors blocked still allow carry second"
+        },
+        {
+          "number": 216,
+          "focus": "thyroidectomy Ondansetron administered nausea prophylaxis complains nausea recovery agents"
+        },
+        {
+          "number": 217,
+          "focus": "drugs prevent tachyarrhythmias Wolff-Parkinson-White syndrome"
+        },
+        {
+          "number": 218,
+          "focus": "half-life pseudocholinesterase"
+        },
+        {
+          "number": 219,
+          "focus": "CYP2D6 polymorphism tested shown ultrarapid metabolizer statements PONV prophylaxis"
+        },
+        {
+          "number": 220,
+          "focus": "equals anti-inflammatory activity prednisone Deltasone"
+        },
+        {
+          "number": 221,
+          "focus": "recovery index nondepolarizing muscle relaxants altered aging"
+        },
+        {
+          "number": 222,
+          "focus": "Side effects associated cyclosporine therapy include each EXCEPT"
+        },
+        {
+          "number": 223,
+          "focus": "What predominant mechanism succinylcholine-induced tachycardia adults"
+        },
+        {
+          "number": 224,
+          "focus": "type diabetes hypertension aortobifemoral bypass grafting kilograms since diuretic"
+        },
+        {
+          "number": 225,
+          "focus": "commonly used drugs metabolized nonspecific esterases"
+        },
+        {
+          "number": 226,
+          "focus": "Succinylcholine contraindicated routine tracheal intubation children because increased incidence"
+        },
+        {
+          "number": 227,
+          "focus": "rapid temporal sequence neuromuscular blockade adductor thumb orbicularis oculi"
+        },
+        {
+          "number": 228,
+          "focus": "interaction nondepolarizing neuromuscular blocking drugs when durations action dissimilar"
+        },
+        {
+          "number": 229,
+          "focus": "effects volatile anesthetics nondepolarizing neuromuscular blocking drugs reversal agents"
+        },
+        {
+          "number": 230,
+          "focus": "Meperidine contraindicated taking drugs Parkinson disease"
+        },
+        {
+          "number": 231,
+          "focus": "Emergence delirium occurs often"
+        },
+        {
+          "number": 232,
+          "focus": "common reason rate etomidate unsatisfactory"
+        },
+        {
+          "number": 233,
+          "focus": "muscle relaxants inhibits reuptake norepinephrine adrenergic nerves"
+        },
+        {
+          "number": 234,
+          "focus": "common side effect oral dantrolene used prevent"
+        },
+        {
+          "number": 235,
+          "focus": "right upper quadrant pain Acute cholecystitis diagnosed laparoscopic cholecystectomy"
+        },
+        {
+          "number": 236,
+          "focus": "operating repair broken mandible sustained motor vehicle accident other"
+        },
+        {
+          "number": 237,
+          "focus": "Context sensitive half-time pharmacologic agent closely related"
+        },
+        {
+          "number": 238,
+          "focus": "neuromuscular effects intubation dose vecuronium terminated"
+        },
+        {
+          "number": 239,
+          "focus": "Respiratory depression produced analgesics readily reversed administration naloxone"
+        },
+        {
+          "number": 240,
+          "focus": "intravenous agents associated highest incidence nausea vomiting"
+        },
+        {
+          "number": 241,
+          "focus": "naloxone were administered ketorolac postoperative pain result"
+        },
+        {
+          "number": 242,
+          "focus": "drug produces strong pulmonary arterial dilation amount systemic artery"
+        },
+        {
+          "number": 243,
+          "focus": "action succinylcholine neuromuscular junction terminated mechanism"
+        },
+        {
+          "number": 244,
+          "focus": "side effect dexmedetomidine healthy"
+        },
+        {
+          "number": 245,
+          "focus": "signs seen suffering thyrotoxicosis whom thyroid storm suspected"
+        },
+        {
+          "number": 246,
+          "focus": "features chronic morphine therapy subject tolerance"
+        },
+        {
+          "number": 247,
+          "focus": "reactive airway disease takes cimetidine Tagamet night additional dose"
+        },
+        {
+          "number": 248,
+          "focus": "Intraoperative allergic reactions common exposure"
+        },
+        {
+          "number": 249,
+          "focus": "medications useful definitive treatment sarin nerve poisoning"
+        },
+        {
+          "number": 250,
+          "focus": "Alfentanil"
+        },
+        {
+          "number": 251,
+          "focus": "medications useful immediate management status asthmaticus"
+        },
+        {
+          "number": 252,
+          "focus": "Clonidine"
+        },
+        {
+          "number": 253,
+          "focus": "plasma half-time drugs prolonged end-stage cirrhotic liver disease"
+        },
+        {
+          "number": 254,
+          "focus": "emergency fire department suffering smoke inhalation third-degree burns abdomen"
+        },
+        {
+          "number": 255,
+          "focus": "Clonidine useful each applications EXCEPT"
+        },
+        {
+          "number": 256,
+          "focus": "operating repair bilateral inguinal hernias awareness refuses regional preoxygenated"
+        },
+        {
+          "number": 257,
+          "focus": "Respiratory depression induction dose drugs"
+        },
+        {
+          "number": 258,
+          "focus": "colon cancer anesthetized hepatic resection liver metastases Medical significant"
+        },
+        {
+          "number": 259,
+          "focus": "Treatment neuroleptic malignant syndrome carried administration drugs EXCEPT"
+        },
+        {
+          "number": 260,
+          "focus": "normal quantity pseudocholinesterase plasma cholinesterase dibucaine number dose intravenous"
+        },
+        {
+          "number": 261,
+          "focus": "Aprepitant exerts pharmacologic effect interaction receptor"
+        },
+        {
+          "number": 262,
+          "focus": "prolonged neuromuscular block succinylcholine seen EXCEPT those"
+        },
+        {
+          "number": 263,
+          "focus": "statements concerning midazolam"
+        },
+        {
+          "number": 264,
+          "focus": "hour vertical gastric banding procedure desflurane oxygen remifentanil trocar"
+        },
+        {
+          "number": 265,
+          "focus": "oral surgeon perform full mouth extraction conscious sedation What"
+        },
+        {
+          "number": 266,
+          "focus": "Postanesthetic shivering treated EXCEPT"
+        },
+        {
+          "number": 267,
+          "focus": "main disadvantage Sugammadex compared neostigmine"
+        },
+        {
+          "number": 268,
+          "focus": "biologic substances listed itself greatest determinant serum osmolality"
+        },
+        {
+          "number": 269,
+          "focus": "Remimazolam"
+        },
+        {
+          "number": 270,
+          "focus": "Important interactions involving chlorpromazine include EXCEPT"
+        },
+        {
+          "number": 271,
+          "focus": "Amrinone"
+        },
+        {
+          "number": 272,
+          "focus": "concerning tricyclic antidepressants"
+        },
+        {
+          "number": 273,
+          "focus": "types insulin preparations fastest onset action administered subcutaneously"
+        },
+        {
+          "number": 274,
+          "focus": "mechanisms explains anticoagulative properties tirofiban"
+        },
+        {
+          "number": 275,
+          "focus": "duration action remifentanil attributable mode metabolism"
+        },
+        {
+          "number": 276,
+          "focus": "Pain intravenous site drug"
+        },
+        {
+          "number": 277,
+          "focus": "grand seizures anesthetized thyroid biopsy consisting midazolam infusion propofol"
+        },
+        {
+          "number": 278,
+          "focus": "antagonists produces irreversible blockade"
+        },
+        {
+          "number": 279,
+          "focus": "drugs used treatment severe bradycardia induced excess beta-adrenergic receptor"
+        },
+        {
+          "number": 280,
+          "focus": "dose dantrolene administered whom incipient suspected expected consequence this"
+        },
+        {
+          "number": 281,
+          "focus": "Atracurium differs cisatracurium"
+        },
+        {
+          "number": 282,
+          "focus": "Signs symptoms opioid withdrawal include EXCEPT"
+        }
+      ]
+    },
+    {
+      "file": "text/part0010_split_001.html",
+      "title": "Pharmacology and Pharmacokinetics of Volatile Anesthetics",
+      "qFrom": 321,
+      "qTo": 377,
+      "declaredCount": 57,
+      "detectedQuestions": 56,
+      "category": "pharmacology",
+      "keywords": "volatile anesthetics, MAC, uptake",
+      "questions": [
+        {
+          "number": 321,
+          "focus": "minimum alveolar concentration highest neonates days versus other groups"
+        },
+        {
+          "number": 322,
+          "focus": "rate increase alveolar concentration volatile relative inspired concentration plotted"
+        },
+        {
+          "number": 323,
+          "focus": "spontaneous breathing volatile anesthetics"
+        },
+        {
+          "number": 324,
+          "focus": "considered advantage low-flow"
+        },
+        {
+          "number": 325,
+          "focus": "main reason desflurane used inhalation induction clinical practice because"
+        },
+        {
+          "number": 326,
+          "focus": "open reduction ankle fracture sevoflurane N2O through laryngeal mask"
+        },
+        {
+          "number": 327,
+          "focus": "blood pressure when N2O-isoflurane substituted isoflurane-oxygen"
+        },
+        {
+          "number": 328,
+          "focus": "volatile anesthetics decreases systemic vascular resistance"
+        },
+        {
+          "number": 329,
+          "focus": "inhalational agents cardiac output moderately increased"
+        },
+        {
+          "number": 330,
+          "focus": "isoflurane"
+        },
+        {
+          "number": 331,
+          "focus": "Abrupt large increases delivered concentration inhalational anesthetics produce transient"
+        },
+        {
+          "number": 332,
+          "focus": "Discontinuation volatile followed immediate introduction second volatile temporarily result"
+        },
+        {
+          "number": 333,
+          "focus": "Cardiogenic shock greatest impact rate increase volatile anesthetics"
+        },
+        {
+          "number": 334,
+          "focus": "vessel-rich group what percent cardiac output"
+        },
+        {
+          "number": 335,
+          "focus": "What percent desflurane present vaporizing chamber desflurane vaporizer pressurized"
+        },
+        {
+          "number": 336,
+          "focus": "lymph node dissection testicular cancer received four courses bleomycin"
+        },
+        {
+          "number": 337,
+          "focus": "right mainstem intubation affect rate increase arterial partial pressure"
+        },
+        {
+          "number": 338,
+          "focus": "breast biopsy end-tidal carbon dioxide ETCO2 infrared spectrometer account"
+        },
+        {
+          "number": 339,
+          "focus": "Isoflurane when administered healthy concentrations less than will decrease"
+        },
+        {
+          "number": 340,
+          "focus": "Increased will accelerate rate rise ratio"
+        },
+        {
+          "number": 341,
+          "focus": "order greatest requirement"
+        },
+        {
+          "number": 342,
+          "focus": "closely determines effect"
+        },
+        {
+          "number": 343,
+          "focus": "moderately obese cervical spinal fusion induction intubation mechanically ventilated"
+        },
+        {
+          "number": 344,
+          "focus": "graph figure depicts"
+        },
+        {
+          "number": 345,
+          "focus": "rate induction isoflurane slower than expected"
+        },
+        {
+          "number": 346,
+          "focus": "antihypertensives reduces"
+        },
+        {
+          "number": 347,
+          "focus": "left-to-right tissue shunt such arteriovenous fistula physiologically resembles"
+        },
+        {
+          "number": 348,
+          "focus": "fresh flow rate greater recommended administration sevoflurane because"
+        },
+        {
+          "number": 349,
+          "focus": "arrangement reservoir sump bypass chamber Datex-Ohmeda Delivery"
+        },
+        {
+          "number": 350,
+          "focus": "Smokers show mild transient increase airway resistance intubation"
+        },
+        {
+          "number": 351,
+          "focus": "anesthetized desflurane hyperbaric chamber pressure increased desflurane dial setting"
+        },
+        {
+          "number": 352,
+          "focus": "graph depicts"
+        },
+        {
+          "number": 353,
+          "focus": "organs considered member vessel-rich group"
+        },
+        {
+          "number": 354,
+          "focus": "isovolumic normal human subjects isoflurane depresses mean arterial pressure"
+        },
+        {
+          "number": 355,
+          "focus": "cardiac output doubled effect rate rise isoflurane compared that"
+        },
+        {
+          "number": 356,
+          "focus": "characteristics inhaled anesthetics closely correlates recovery inhaled"
+        },
+        {
+          "number": 357,
+          "focus": "hour N2O-desflurane evidence N2O detected histologic examination"
+        },
+        {
+          "number": 358,
+          "focus": "unconscious spontaneously breathing operating intensive care wound bridement maneuvers"
+        },
+        {
+          "number": 359,
+          "focus": "settings give highest arterial oxygen concentration inhalation induction sevoflurane"
+        },
+        {
+          "number": 361,
+          "focus": "circuit primed preparation inhalation induction open adjustable pressure-limiting valve"
+        },
+        {
+          "number": 362,
+          "focus": "factors lowers volatile anesthetics"
+        },
+        {
+          "number": 363,
+          "focus": "Each factors influence partial pressure gradient necessary achievement EXCEPT"
+        },
+        {
+          "number": 364,
+          "focus": "volatile anesthetics unique containing preservative"
+        },
+        {
+          "number": 365,
+          "focus": "alveolar-to-venous partial pressure difference volatile positive arterial-to-venous partial pressure"
+        },
+        {
+          "number": 366,
+          "focus": "loss plastic rubber components circuit hindering achievement adequate inspired"
+        },
+        {
+          "number": 367,
+          "focus": "Factors predisposing formation rebreathing compound include each EXCEPT"
+        },
+        {
+          "number": 368,
+          "focus": "purpose check valve desflurane vaporizer Datex-Ohmeda Aladin Cassette Vaporizer"
+        },
+        {
+          "number": 369,
+          "focus": "volatile agents correctly matched their degree metabolism determined metabolite"
+        },
+        {
+          "number": 370,
+          "focus": "components considered process washin circuit onset administration"
+        },
+        {
+          "number": 371,
+          "focus": "maneuvers increase rate inhalation induction"
+        },
+        {
+          "number": 372,
+          "focus": "anesthetics elimination rapidly hour Whipple procedure duration"
+        },
+        {
+          "number": 373,
+          "focus": "induction intubation healthy institution ventilator sevoflurane vaporizer fresh flow"
+        },
+        {
+          "number": 374,
+          "focus": "cessation that consisted oxygen volatile agent only given oxygen"
+        },
+        {
+          "number": 375,
+          "focus": "characteristics volatile anesthetics necessary calculation time constant"
+        },
+        {
+          "number": 376,
+          "focus": "concept context sensitive half-time emphasizes importance relationship between half-time"
+        },
+        {
+          "number": 377,
+          "focus": "pharmacokinetics volatile anesthetics three time constants"
+        }
+      ]
+    },
+    {
+      "file": "text/part0012_split_001.html",
+      "title": "Blood Products, Transfusion, and Fluid Therapy",
+      "qFrom": 382,
+      "qTo": 415,
+      "declaredCount": 34,
+      "detectedQuestions": 34,
+      "category": "critical care",
+      "keywords": "fluids, transfusion, coagulation",
+      "questions": [
+        {
+          "number": 382,
+          "focus": "Each treatments might useful decreasing prolonged prothrombin time EXCEPT"
+        },
+        {
+          "number": 383,
+          "focus": "practices releasing platelets beneficial avoiding future hemolytic reactions alloantibodies"
+        },
+        {
+          "number": 384,
+          "focus": "fluids greatest osmolality"
+        },
+        {
+          "number": 385,
+          "focus": "dose platelets apheresis platelet pooled units whole blood derived"
+        },
+        {
+          "number": 386,
+          "focus": "transfusion packed blood cells RBCs recovery laparoscopic prostatectomy blood"
+        },
+        {
+          "number": 387,
+          "focus": "likelihood clinically significant hemolytic transfusion reaction resulting administration type-specific"
+        },
+        {
+          "number": 388,
+          "focus": "tested first immediate phase blood crossmatching"
+        },
+        {
+          "number": 389,
+          "focus": "clotting factors shortest half-life"
+        },
+        {
+          "number": 390,
+          "focus": "measures does reduce incidence transfusion-related acute lung injury TRALI"
+        },
+        {
+          "number": 391,
+          "focus": "anesthetized resection large highly vascular sarcoma abdomen resection units"
+        },
+        {
+          "number": 392,
+          "focus": "Blood routinely tested"
+        },
+        {
+          "number": 393,
+          "focus": "blood volume infant"
+        },
+        {
+          "number": 394,
+          "focus": "infections highest risk causing transfusion-transmitted infection"
+        },
+        {
+          "number": 395,
+          "focus": "hemophilia right total knee arthroplasty laboratory test results show"
+        },
+        {
+          "number": 396,
+          "focus": "total colectomy Urine output been last hours Volume replacement"
+        },
+        {
+          "number": 397,
+          "focus": "involved motor vehicle accident emergency blood pressure systolic transfused"
+        },
+        {
+          "number": 398,
+          "focus": "criterion used determine long blood stored transfusion"
+        },
+        {
+          "number": 399,
+          "focus": "rationale storage platelets temperature"
+        },
+        {
+          "number": 400,
+          "focus": "involved emergency shock transfused units type Rh-negative whole blood"
+        },
+        {
+          "number": 401,
+          "focus": "child hematocrit lose much blood still maintain hematocrit"
+        },
+        {
+          "number": 402,
+          "focus": "recent cardiac stent taking clopidogrel Plavix daily retinal thromboelastogram"
+        },
+        {
+          "number": 403,
+          "focus": "Paramedics respond site immediately stabilize neck secure airway place"
+        },
+        {
+          "number": 404,
+          "focus": "been total parenteral nutrition dextrose amino acids intralipids weeks"
+        },
+        {
+          "number": 405,
+          "focus": "emergency when there limited supply type O-negative RBCs type"
+        },
+        {
+          "number": 406,
+          "focus": "Hetastarch exerts anticoagulative effect through interference function"
+        },
+        {
+          "number": 407,
+          "focus": "characterize packed RBCs that have been stored days citrate"
+        },
+        {
+          "number": 408,
+          "focus": "statements coagulation factor recombinant inactivated-zhzo"
+        },
+        {
+          "number": 409,
+          "focus": "adult liver primary organ"
+        },
+        {
+          "number": 410,
+          "focus": "Anticoagulation low-molecular-weight heparin LMWH monitored through laboratory tests"
+        },
+        {
+          "number": 411,
+          "focus": "Heparin resistance heritable conditions"
+        },
+        {
+          "number": 412,
+          "focus": "Type Willebrand disease treated EXCEPT"
+        },
+        {
+          "number": 413,
+          "focus": "significance immunoglobulin antibodies transfusion medicine related"
+        },
+        {
+          "number": 414,
+          "focus": "common cause mortality associated administration blood"
+        },
+        {
+          "number": 415,
+          "focus": "Fluid resuscitation major abdominal agents associated survival data"
+        }
+      ]
+    },
+    {
+      "file": "text/part0013_split_001.html",
+      "title": "General Anesthesia",
+      "qFrom": 418,
+      "qTo": 546,
+      "declaredCount": 129,
+      "detectedQuestions": 127,
+      "category": "airway",
+      "keywords": "general anesthesia, airway, perioperative management",
+      "questions": [
+        {
+          "number": 418,
+          "focus": "hypertension adult-onset diabetes takes chlorpropamide Diabinese cholecystectomy admission blood"
+        },
+        {
+          "number": 419,
+          "focus": "perioperative decision-making"
+        },
+        {
+          "number": 420,
+          "focus": "liver disease osteomyelitis anesthetized tibial bridement induction intubation wound"
+        },
+        {
+          "number": 421,
+          "focus": "Normal tracheal capillary pressure"
+        },
+        {
+          "number": 422,
+          "focus": "many hours elapse performing single-shot spinal enoxaparin Lovenox twice"
+        },
+        {
+          "number": 423,
+          "focus": "back pain left-sided radiculopathy presents lumbar discectomy past medical"
+        },
+        {
+          "number": 424,
+          "focus": "plausible explanation lack analgesia codeine administration"
+        },
+        {
+          "number": 425,
+          "focus": "bare-metal stent portion left anterior descending artery rotator cuff"
+        },
+        {
+          "number": 426,
+          "focus": "diseases greatest risk retinal damage hypotension"
+        },
+        {
+          "number": 427,
+          "focus": "Naltrexone"
+        },
+        {
+          "number": 428,
+          "focus": "mechanisms frequently responsible hypoxia recovery"
+        },
+        {
+          "number": 429,
+          "focus": "Hypoparathyroidism secondary inadvertent surgical resection parathyroid glands total thyroidectomy"
+        },
+        {
+          "number": 430,
+          "focus": "Damage nerve lead wrist drop"
+        },
+        {
+          "number": 431,
+          "focus": "body mass index anesthetized laparoscopic bariatric knee pain while"
+        },
+        {
+          "number": 432,
+          "focus": "child transported recovery tonsillectomy anesthetized isoflurane fentanyl N2O Twenty"
+        },
+        {
+          "number": 433,
+          "focus": "multiple medical problems lists HT3 antagonists allergy band medications"
+        },
+        {
+          "number": 434,
+          "focus": "Pheochromocytoma coexist"
+        },
+        {
+          "number": 435,
+          "focus": "oral antidiabetic drugs unique that does produce hypoglycemia when"
+        },
+        {
+          "number": 436,
+          "focus": "onset delirium tremens abstinence alcohol usually occurs"
+        },
+        {
+          "number": 437,
+          "focus": "retired coal miner intraluminal tracheal tumor tracheal resection relative"
+        },
+        {
+          "number": 438,
+          "focus": "multiple myeloma intensive care treatment hypercalcemia primary risk associated"
+        },
+        {
+          "number": 439,
+          "focus": "Just induction demented ischemic bowel mentions that forgot take"
+        },
+        {
+          "number": 440,
+          "focus": "normal healthy child involved motor vehicle accident coming emergently"
+        },
+        {
+          "number": 441,
+          "focus": "presents extraction multiple teeth noted that ketogenic diet reason"
+        },
+        {
+          "number": 442,
+          "focus": "obese diminished breath sounds bilaterally lung bases hours emergency"
+        },
+        {
+          "number": 443,
+          "focus": "Easily discernable improvement outcomes observed through measure quality improvement"
+        },
+        {
+          "number": 444,
+          "focus": "mechanically ventilated days repair ruptured abdominal aortic aneurysm maintain"
+        },
+        {
+          "number": 445,
+          "focus": "mechanism action clopidogrel"
+        },
+        {
+          "number": 446,
+          "focus": "closely associated minimum alveolar concentration"
+        },
+        {
+          "number": 447,
+          "focus": "federal breach protected health information must disclosed"
+        },
+        {
+          "number": 448,
+          "focus": "Scopolamine given premedication neurologic diseases"
+        },
+        {
+          "number": 449,
+          "focus": "depression previous intraoperative awareness anesthetized gastric bypass dose midazolam"
+        },
+        {
+          "number": 450,
+          "focus": "endometrial cancer abdominal hysterectomy desflurane first hour urine output"
+        },
+        {
+          "number": 451,
+          "focus": "diseases associated decrease DLCO"
+        },
+        {
+          "number": 452,
+          "focus": "Each postoperative complications thyroid result upper airway obstruction EXCEPT"
+        },
+        {
+          "number": 453,
+          "focus": "sensitive early sign malignant hyperthermia"
+        },
+        {
+          "number": 454,
+          "focus": "anesthetized right hemicolectomy hours blood pressure heart rate beats"
+        },
+        {
+          "number": 455,
+          "focus": "severe rheumatoid arthritis pulmonary function evaluation abdominal Forced expiratory"
+        },
+        {
+          "number": 456,
+          "focus": "component postanesthetic discharge scoring system PADSS used evaluate suitability"
+        },
+        {
+          "number": 457,
+          "focus": "emergency repair mandibular fracture otherwise healthy temperature noted rise"
+        },
+        {
+          "number": 458,
+          "focus": "drugs useful treatment asthma specifically interfering leukotriene pathway"
+        },
+        {
+          "number": 459,
+          "focus": "transurethral resection prostate gland Upon arrival recovery appears restless"
+        },
+        {
+          "number": 460,
+          "focus": "intravenous anesthetics useful treatment status epilepticus"
+        },
+        {
+          "number": 461,
+          "focus": "emergently repair ruptured abdominal aortic aneurysm induced ketamine tracheal"
+        },
+        {
+          "number": 462,
+          "focus": "believed involve generalized disorder membrane permeability"
+        },
+        {
+          "number": 463,
+          "focus": "testicular cancer exploratory laparotomy received bleomycin metastatic disease important"
+        },
+        {
+          "number": 464,
+          "focus": "obese abdominal hysterectomy Induction uneventful SaO2 first minutes oxygen"
+        },
+        {
+          "number": 465,
+          "focus": "long intravitreal injection sulfur hexafluoride N2O used without risk"
+        },
+        {
+          "number": 466,
+          "focus": "total thyroidectomy awakened mouth pharynx suctioned intact laryngeal reflexes"
+        },
+        {
+          "number": 467,
+          "focus": "obese foot underwent subtotal thyroidectomy years takes levothyroxine Synthroid"
+        },
+        {
+          "number": 468,
+          "focus": "previous medical except cataracts transurethral resection prostate gland spinal"
+        },
+        {
+          "number": 469,
+          "focus": "third-degree burns over body bridement skin grafting days sustaining"
+        },
+        {
+          "number": 470,
+          "focus": "parotid gland removal Each assesses facial nerve function EXCEPT"
+        },
+        {
+          "number": 471,
+          "focus": "chronic obstructive pulmonary disease COPD coronary artery disease laparoscopic"
+        },
+        {
+          "number": 472,
+          "focus": "Allergic reactions occurring immediate perioperative period commonly attributable administration"
+        },
+        {
+          "number": 473,
+          "focus": "Caution advised when using succinylcholine Huntington chorea because"
+        },
+        {
+          "number": 474,
+          "focus": "result increase intraocular pressure"
+        },
+        {
+          "number": 475,
+          "focus": "apnea-hypopnea index means"
+        },
+        {
+          "number": 476,
+          "focus": "reversal agent Andexxa indicated life threatening uncontrollable hemorrhage Enoxaparin"
+        },
+        {
+          "number": 478,
+          "focus": "Crohn disease drainage rectal abscess preoperative medications include prednisone"
+        },
+        {
+          "number": 479,
+          "focus": "Low-molecular-weight heparin LMWH"
+        },
+        {
+          "number": 480,
+          "focus": "given creatinine corresponds glomerular filtration rate creatinine correspond"
+        },
+        {
+          "number": 481,
+          "focus": "incidence each increased Down syndrome trisomy EXCEPT"
+        },
+        {
+          "number": 482,
+          "focus": "laparoscopic cholecystectomy pack-per-year smoking metoclopramide scopolamine preoperatively induced ketamine"
+        },
+        {
+          "number": 483,
+          "focus": "neuroleptic malignant syndrome share each characteristics EXCEPT"
+        },
+        {
+          "number": 484,
+          "focus": "What statements vasopressin"
+        },
+        {
+          "number": 485,
+          "focus": "Remifentanil metabolized primarily"
+        },
+        {
+          "number": 486,
+          "focus": "term infant good muscle tone strong saturation minutes delivery"
+        },
+        {
+          "number": 487,
+          "focus": "extracorporeal shock wave lithotripsy increased risk"
+        },
+        {
+          "number": 488,
+          "focus": "common reason admitting outpatients hospital"
+        },
+        {
+          "number": 489,
+          "focus": "myasthenia gravis arrives emergency confused agitated weakness increased difficulty"
+        },
+        {
+          "number": 490,
+          "focus": "tramadol Ultram"
+        },
+        {
+          "number": 491,
+          "focus": "statistical hypothesis testing value less than predetermined value"
+        },
+        {
+          "number": 492,
+          "focus": "emergency repair abdominal aortic aneurysm first hour release suprarenal"
+        },
+        {
+          "number": 493,
+          "focus": "Brice Questionnaire used estimate"
+        },
+        {
+          "number": 494,
+          "focus": "left inguinal hernia repair Diego California N2O administered isoflurane"
+        },
+        {
+          "number": 495,
+          "focus": "otherwise healthy vocal cord statements concerning cardiac output compared"
+        },
+        {
+          "number": 496,
+          "focus": "single dose propofol healthy statements"
+        },
+        {
+          "number": 497,
+          "focus": "hemophiliac total knee arthroplasty factor VIII levels normal appropriate"
+        },
+        {
+          "number": 498,
+          "focus": "whose maternal uncle hemophilia wisdom tooth extraction test screening"
+        },
+        {
+          "number": 499,
+          "focus": "Five minutes single dose propofol cytosol intracellular concentration propofol"
+        },
+        {
+          "number": 500,
+          "focus": "right enucleation cardiac disease ST-segment elevation noted lead complete"
+        },
+        {
+          "number": 501,
+          "focus": "Each increase volatile anesthetics EXCEPT"
+        },
+        {
+          "number": 502,
+          "focus": "manic-depressive illness removal intramedullary left tibia statements potential untoward"
+        },
+        {
+          "number": 503,
+          "focus": "Treatment hypotension anesthetized resection metastatic carcinoid accomplished"
+        },
+        {
+          "number": 504,
+          "focus": "asked evaluate recovery having undergone exploratory laparotomy colonic perforation"
+        },
+        {
+          "number": 505,
+          "focus": "been ventilator hours does open eyes stimulus verbal motor"
+        },
+        {
+          "number": 506,
+          "focus": "Hypoglycemia more occur diabetic surgical diseases"
+        },
+        {
+          "number": 507,
+          "focus": "associated falsely elevated SaO2 measured pulse oximetry dual wave"
+        },
+        {
+          "number": 508,
+          "focus": "clinical performance sleep deprivation"
+        },
+        {
+          "number": 509,
+          "focus": "Gabapentin Neurontin used treatment chronic pain belongs same broad"
+        },
+        {
+          "number": 510,
+          "focus": "smoking hypertension colonoscopy sedation night procedure took bowel prep"
+        },
+        {
+          "number": 511,
+          "focus": "morbidly obese bilateral blindness only able perceive light hour"
+        },
+        {
+          "number": 512,
+          "focus": "Each statements postoperative shivering EXCEPT"
+        },
+        {
+          "number": 513,
+          "focus": "changes associated hyperkalemia include"
+        },
+        {
+          "number": 514,
+          "focus": "presents preoperative evaluation clinic pancreaticoduodenectomy complains month dyspnea exertion"
+        },
+        {
+          "number": 515,
+          "focus": "Each associated acromegalic transsphenoidal hypophysectomy EXCEPT"
+        },
+        {
+          "number": 516,
+          "focus": "Evidence anaphylactic reaction atracurium hours episode established measuring blood"
+        },
+        {
+          "number": 517,
+          "focus": "findings consistent diagnosis"
+        },
+        {
+          "number": 518,
+          "focus": "business executive radical retropubic prostatectomy uneventfully isoflurane takes fluoxetine"
+        },
+        {
+          "number": 519,
+          "focus": "induced anterior cervical fusion placed ventilator Peak airway pressure"
+        },
+        {
+          "number": 521,
+          "focus": "closure incision open hemicolectomy abdominal x-ray performed that shows"
+        },
+        {
+          "number": 522,
+          "focus": "factors adults listed strongest independent predictor PONV studies"
+        },
+        {
+          "number": 523,
+          "focus": "Near hour colectomy surgeon complains that relaxed twitch monitors"
+        },
+        {
+          "number": 524,
+          "focus": "parturient anesthetized emergency laparoscopic cholecystectomy twenty-fourth week gestation sevoflurane"
+        },
+        {
+          "number": 525,
+          "focus": "end-stage liver disease therapy improve symptoms associated hepatic encephalopathy"
+        },
+        {
+          "number": 526,
+          "focus": "Ketorolac contraindicated scoliosis because"
+        },
+        {
+          "number": 527,
+          "focus": "Genetic records show glucose-6-phosphate deficiency drugs avoided cholecystectomy"
+        },
+        {
+          "number": 528,
+          "focus": "factors greatest predictor sleep apneas adult"
+        },
+        {
+          "number": 529,
+          "focus": "greatest number malpractice claims made against anesthesiologists according closed"
+        },
+        {
+          "number": 530,
+          "focus": "Resynchronization therapy"
+        },
+        {
+          "number": 531,
+          "focus": "underlying feature syndrome"
+        },
+        {
+          "number": 532,
+          "focus": "hospitalized being treated pain pancreatic cancer well controlled morphine"
+        },
+        {
+          "number": 533,
+          "focus": "PACU hour cosmetic sevoflurane entire case describes sevoflurane concentration"
+        },
+        {
+          "number": 534,
+          "focus": "have been asked preoperative area tooth extraction nurse caring"
+        },
+        {
+          "number": 535,
+          "focus": "nerves derived cranial nerve"
+        },
+        {
+          "number": 536,
+          "focus": "experiencing progressive mental deterioration over hour period days emergency"
+        },
+        {
+          "number": 537,
+          "focus": "period vulnerability three courses bleomycin testicular cancer"
+        },
+        {
+          "number": 538,
+          "focus": "common adverse cardiac event pediatric population"
+        },
+        {
+          "number": 539,
+          "focus": "Each predictor difficulty mask ventilation EXCEPT"
+        },
+        {
+          "number": 540,
+          "focus": "compartment syndrome signs last appear"
+        },
+        {
+          "number": 541,
+          "focus": "dose kilogram body weight duration respectively local anesthetics spinals"
+        },
+        {
+          "number": 542,
+          "focus": "number endotracheal tube indicates size"
+        },
+        {
+          "number": 543,
+          "focus": "were become trapped magnetic resonance imaging scanner metal object"
+        },
+        {
+          "number": 544,
+          "focus": "black emergency unconscious Supplemental oxygen administered pulse oximeter placed"
+        },
+        {
+          "number": 545,
+          "focus": "correction scoliosis somatosensory evoked potential SSEP monitoring employed increase"
+        },
+        {
+          "number": 546,
+          "focus": "conditions response atropine pronounced"
+        }
+      ]
+    },
+    {
+      "file": "text/part0014_split_002.html",
+      "title": "Pediatric Physiology and Anesthesia",
+      "qFrom": 567,
+      "qTo": 642,
+      "declaredCount": 76,
+      "detectedQuestions": 75,
+      "category": "pediatric",
+      "keywords": "pediatric physiology and anesthesia",
+      "questions": [
+        {
+          "number": 567,
+          "focus": "previously healthy month-old infant strong family sickle cell anemia"
+        },
+        {
+          "number": 568,
+          "focus": "premature newborn glottis level relative cervical spine"
+        },
+        {
+          "number": 569,
+          "focus": "month-old infant operative reduction right inguinal hernia Spinal performed"
+        },
+        {
+          "number": 570,
+          "focus": "What percentage term newborn total body weight consists water"
+        },
+        {
+          "number": 571,
+          "focus": "develop retinopathy prematurity"
+        },
+        {
+          "number": 572,
+          "focus": "week-old infant emergency projectile vomiting time admission lethargic respiratory"
+        },
+        {
+          "number": 573,
+          "focus": "figure esophageal atresia tracheoesophageal fistula common Modified Gross Infancy"
+        },
+        {
+          "number": 575,
+          "focus": "month-old infant craniosynostosis repair surgeon anesthesiologist agreed start transfusing"
+        },
+        {
+          "number": 576,
+          "focus": "What volume packed blood cells PRBCs needed raise month-old"
+        },
+        {
+          "number": 577,
+          "focus": "Reasons selecting cuffed endotracheal tube over uncuffed include EXCEPT"
+        },
+        {
+          "number": 578,
+          "focus": "otherwise healthy tonsillectomy induction breathing rate breaths inhalation induction"
+        },
+        {
+          "number": 579,
+          "focus": "healthy month-old neonate anesthetized inguinal hernia repair inhalation induction"
+        },
+        {
+          "number": 580,
+          "focus": "anesthetized repair umbilical hernia induced maintained sevoflurane nitrous oxide"
+        },
+        {
+          "number": 581,
+          "focus": "what maximum inspiratory pressure cuffed leak child leak test"
+        },
+        {
+          "number": 582,
+          "focus": "premature newborn delivered weeks gestation days delivery repair left-sided"
+        },
+        {
+          "number": 583,
+          "focus": "weighs found site motor vehicle accident arrived exploratory laparotomy"
+        },
+        {
+          "number": 584,
+          "focus": "child distance oral placed gums midtrachea often"
+        },
+        {
+          "number": 585,
+          "focus": "suitable intraoperative replacement fluid child been hours will repair"
+        },
+        {
+          "number": 586,
+          "focus": "otherwise healthy day-old neonate transported well hydrated bowel obstruction"
+        },
+        {
+          "number": 587,
+          "focus": "receive call preoperative nurse stating that child will caring"
+        },
+        {
+          "number": 588,
+          "focus": "week-old infant born weeks gestation anesthetized repair inguinal hernia"
+        },
+        {
+          "number": 589,
+          "focus": "girl pulseless ventricular tachycardia induction tonsillectomy anesthesiologist intubates child"
+        },
+        {
+          "number": 590,
+          "focus": "spinal cord newborns extends"
+        },
+        {
+          "number": 591,
+          "focus": "common initial symptom esophageal atresia tracheoesophageal fistula"
+        },
+        {
+          "number": 592,
+          "focus": "hour-old newborn Beckwith-Wiedemann syndrome surgical repair omphalocele part this"
+        },
+        {
+          "number": 593,
+          "focus": "appropriate technique induction newborn surgical repair"
+        },
+        {
+          "number": 594,
+          "focus": "cough sore throat temperature hydrocele repair Physical examination reveals"
+        },
+        {
+          "number": 595,
+          "focus": "statements teeth INCORRECT"
+        },
+        {
+          "number": 596,
+          "focus": "pulmonary vascular resistance newborns decreases that adults"
+        },
+        {
+          "number": 597,
+          "focus": "month-old infant repair left testicular hydrocele isoflurane nitrous oxide"
+        },
+        {
+          "number": 598,
+          "focus": "Postoperative mechanical ventilation common repair lesions result central postoperative"
+        },
+        {
+          "number": 599,
+          "focus": "premature neonate born weeks gestation repair left-sided diaphragmatic hernia"
+        },
+        {
+          "number": 600,
+          "focus": "minimum alveolar concentration isoflurane greatest"
+        },
+        {
+          "number": 601,
+          "focus": "child sustains thermal injury legs buttocks back estimated area"
+        },
+        {
+          "number": 602,
+          "focus": "otherwise healthy month-old black infant hemoglobin value birth presents"
+        },
+        {
+          "number": 603,
+          "focus": "anesthesiologist called emergency pediatrician help manage high fever upper"
+        },
+        {
+          "number": 604,
+          "focus": "child cerebral palsy known severe gastroesophageal reflux frequent nightly"
+        },
+        {
+          "number": 605,
+          "focus": "week-old infant pediatric intensive care bowel obstruction laboratory values"
+        },
+        {
+          "number": 606,
+          "focus": "hour-old neonate weeks estimated gestational noted begin making twitching"
+        },
+        {
+          "number": 607,
+          "focus": "Eutectic Mixture Local Anesthetics EMLA cream mixture local anesthetics"
+        },
+        {
+          "number": 608,
+          "focus": "Advantages catheterization umbilical artery versus umbilical vein newborn include"
+        },
+        {
+          "number": 609,
+          "focus": "concerning thermoregulation neonates"
+        },
+        {
+          "number": 610,
+          "focus": "child climbing tree fell sustaining lower cervical neck injury"
+        },
+        {
+          "number": 611,
+          "focus": "child strabismus suddenly sinus bradycardia intermittent ventricular escape beats"
+        },
+        {
+          "number": 612,
+          "focus": "respiratory indices increased healthy neonates compared healthy adults"
+        },
+        {
+          "number": 613,
+          "focus": "girl neurofibromatosis anesthetized resection acoustic neuroma Each potentially complicate"
+        },
+        {
+          "number": 614,
+          "focus": "congenital anomalies right-to-left intracardiac shunting blood pulmonary hypertension difficult"
+        },
+        {
+          "number": 615,
+          "focus": "CONSISTENT infant suffers severe dehydration"
+        },
+        {
+          "number": 616,
+          "focus": "Postoperative bleeding tonsillectomy occurs commonly"
+        },
+        {
+          "number": 617,
+          "focus": "sinus treated unmeasured amount phenylephrine surgeon blood pressure appropriate"
+        },
+        {
+          "number": 618,
+          "focus": "month-old infant left inguinal herniorrhaphy spinal Typically long bupivacaine"
+        },
+        {
+          "number": 619,
+          "focus": "combination drug dose used alone INCORRECT preoperative sedation anxious"
+        },
+        {
+          "number": 620,
+          "focus": "statements resuscitation infant health care providers"
+        },
+        {
+          "number": 621,
+          "focus": "statements concerning physiology newborns compared that adults EXCEPT"
+        },
+        {
+          "number": 622,
+          "focus": "statements concerning anatomy infant adult airway INCORRECT"
+        },
+        {
+          "number": 623,
+          "focus": "operations associated incidence postoperative nausea vomiting PONV"
+        },
+        {
+          "number": 624,
+          "focus": "Anomalies features associated Down syndrome include"
+        },
+        {
+          "number": 625,
+          "focus": "Congenital syndromes frequently associated cardiac abnormalities include EXCEPT"
+        },
+        {
+          "number": 626,
+          "focus": "Appropriate management neonate born congenital diaphragmatic hernia include"
+        },
+        {
+          "number": 627,
+          "focus": "complex regional pain syndrome CRPS children"
+        },
+        {
+          "number": 628,
+          "focus": "statements perioperative cardiac arrest children"
+        },
+        {
+          "number": 629,
+          "focus": "represents greatest risk postoperative apnea infant"
+        },
+        {
+          "number": 630,
+          "focus": "statements Mapleson breathing circuit"
+        },
+        {
+          "number": 631,
+          "focus": "reduce incidence postoperative apnea preterm infants inguinal hernia repair"
+        },
+        {
+          "number": 632,
+          "focus": "week-EGA newborn born hours repair gastroschisis sizes uncuffed ETTs"
+        },
+        {
+          "number": 633,
+          "focus": "Induction delayed many hours breastfeeding"
+        },
+        {
+          "number": 634,
+          "focus": "infant hypothermia manifest"
+        },
+        {
+          "number": 635,
+          "focus": "Necrotizing enterocolitis characteristics EXCEPT"
+        },
+        {
+          "number": 636,
+          "focus": "statements concerning codeine INCORRECT"
+        },
+        {
+          "number": 637,
+          "focus": "drugs used proton beam radiation treatment medulloblastoma"
+        },
+        {
+          "number": 638,
+          "focus": "girl hemolytic-uremic syndrome dialysis catheter Medical issues typical this"
+        },
+        {
+          "number": 639,
+          "focus": "child status post resection Wilms tumor years doxorubicin Adriamycin"
+        },
+        {
+          "number": 640,
+          "focus": "Hypotension children characterized systolic blood pressure"
+        },
+        {
+          "number": 641,
+          "focus": "What percent adult glomerular filtration rate does possess"
+        },
+        {
+          "number": 642,
+          "focus": "Each results reduction incidence postoperative vomiting children strabismus EXCEPT"
+        }
+      ]
+    },
+    {
+      "file": "text/part0015_split_001.html",
+      "title": "Obstetric Physiology and Anesthesia",
+      "qFrom": 643,
+      "qTo": 725,
+      "declaredCount": 83,
+      "detectedQuestions": 83,
+      "category": "obstetric",
+      "keywords": "obstetric physiology and anesthesia",
+      "questions": [
+        {
+          "number": 643,
+          "focus": "drugs does pass placenta easily"
+        },
+        {
+          "number": 644,
+          "focus": "obese subcutaneous low-molecular-weight heparin LMWH thromboprophylaxis epidural cesarean delivery"
+        },
+        {
+          "number": 645,
+          "focus": "What percentage pregnancies affected hypertension"
+        },
+        {
+          "number": 646,
+          "focus": "anxious preeclamptic active labor back pain epidural labor analgesia"
+        },
+        {
+          "number": 647,
+          "focus": "Magnesium sulfate MgSO4 used anticonvulsant preeclampsia fetal neuroprotection sometimes"
+        },
+        {
+          "number": 648,
+          "focus": "Normal fetal heart rate"
+        },
+        {
+          "number": 649,
+          "focus": "cause pregnancy-related deaths United States"
+        },
+        {
+          "number": 650,
+          "focus": "Drugs useful treatment uterine atony asthmatic severe preeclampsia include"
+        },
+        {
+          "number": 651,
+          "focus": "What P50 fetal hemoglobin term"
+        },
+        {
+          "number": 652,
+          "focus": "Side effects terbutaline include EXCEPT"
+        },
+        {
+          "number": 653,
+          "focus": "Cardiac output increases dramatically pregnancy delivery cardiac output returns"
+        },
+        {
+          "number": 654,
+          "focus": "parturient spinal fusion severe asthma hypertension blood pressure operating"
+        },
+        {
+          "number": 655,
+          "focus": "Uterine blood flow term pregnancy typically increases"
+        },
+        {
+          "number": 656,
+          "focus": "statements human immunodeficiency virus infected parturients"
+        },
+        {
+          "number": 657,
+          "focus": "cardiovascular parameters decreased term"
+        },
+        {
+          "number": 658,
+          "focus": "signs symptoms associated amniotic fluid embolism"
+        },
+        {
+          "number": 659,
+          "focus": "When fetus susceptible effects teratogenic agents"
+        },
+        {
+          "number": 660,
+          "focus": "week estimated gestational infant born mother addicted heroin mother"
+        },
+        {
+          "number": 661,
+          "focus": "Cardiac output GREATEST"
+        },
+        {
+          "number": 662,
+          "focus": "week born heart rate beats slow irregular respiratory efforts"
+        },
+        {
+          "number": 663,
+          "focus": "respiratory parameters increased parturient"
+        },
+        {
+          "number": 664,
+          "focus": "drugs used transvaginal oocyte retrieval TVOR assisted reproductive technology"
+        },
+        {
+          "number": 665,
+          "focus": "conditions associated increased bleeding pregnancy"
+        },
+        {
+          "number": 666,
+          "focus": "What prevent autonomic hyperreflexia quadriplegic induction labor complete spinal"
+        },
+        {
+          "number": 667,
+          "focus": "gravida para parturient anesthetized emergency cesarean section emergence endotracheal"
+        },
+        {
+          "number": 668,
+          "focus": "gravida para weeks gestation emergency appendectomy isoflurane N2O oxygen"
+        },
+        {
+          "number": 669,
+          "focus": "lumbar epidural placed gravida para parturient myasthenia gravis labor"
+        },
+        {
+          "number": 670,
+          "focus": "having conditions develop"
+        },
+        {
+          "number": 671,
+          "focus": "gravida para parturient Eisenmenger syndrome pulmonary hypertension intracardiac right-to-left"
+        },
+        {
+          "number": 672,
+          "focus": "need emergency hysterectomy uncontrolled bleeding time delivery"
+        },
+        {
+          "number": 673,
+          "focus": "common injury recorded American Society Anesthesiologists Closed Claims Project"
+        },
+        {
+          "number": 674,
+          "focus": "statements chorioamnionitis"
+        },
+        {
+          "number": 675,
+          "focus": "statements newborns thick meconium-stained amniotic fluid"
+        },
+        {
+          "number": 676,
+          "focus": "primiparous placenta previa active vaginal bleeding arrives operating systolic"
+        },
+        {
+          "number": 677,
+          "focus": "lung volumes capacities change pregnancy"
+        },
+        {
+          "number": 678,
+          "focus": "induced cesarean section part glottic apparatus visible unsuccessful attempts"
+        },
+        {
+          "number": 679,
+          "focus": "describe their labor pain being intense"
+        },
+        {
+          "number": 680,
+          "focus": "Cigarette smoking associated increase each EXCEPT"
+        },
+        {
+          "number": 681,
+          "focus": "nitrous oxide labor analgesia EXCEPT"
+        },
+        {
+          "number": 682,
+          "focus": "When performing rapid-sequence induction emergency cesarean delivery muscle relaxants"
+        },
+        {
+          "number": 683,
+          "focus": "statements inclusion intrathecal morphine fentanyl sufentanil obstetric practice include"
+        },
+        {
+          "number": 684,
+          "focus": "common side effect intraspinal narcotics obstetric population"
+        },
+        {
+          "number": 685,
+          "focus": "gravida para blood pressure office visit week gestation week"
+        },
+        {
+          "number": 686,
+          "focus": "epidural placed into parturient active labor magnesium therapy preeclampsia"
+        },
+        {
+          "number": 687,
+          "focus": "narcotics LONGEST duration action when added cesarean section epidural"
+        },
+        {
+          "number": 688,
+          "focus": "increased pregnancy"
+        },
+        {
+          "number": 689,
+          "focus": "inhalation does produce uterine relaxation"
+        },
+        {
+          "number": 690,
+          "focus": "Passive diffusion substances across placenta enhanced EXCEPT"
+        },
+        {
+          "number": 691,
+          "focus": "Cesarean delivery associated blood loss"
+        },
+        {
+          "number": 692,
+          "focus": "statements describing differences between fetal maternal blood labor"
+        },
+        {
+          "number": 693,
+          "focus": "morbidly obese have higher incidence EXCEPT"
+        },
+        {
+          "number": 694,
+          "focus": "term infant good muscle tone strong oxygen saturation breathing"
+        },
+        {
+          "number": 695,
+          "focus": "condition describes third-trimester maternal condition signs symptoms new-onset vaginal"
+        },
+        {
+          "number": 696,
+          "focus": "second stage labor complete pain relief obtained"
+        },
+        {
+          "number": 697,
+          "focus": "considerations open fetal include EXCEPT"
+        },
+        {
+          "number": 698,
+          "focus": "Methyl PGF2 administered directly into myometrium treat uterine atony"
+        },
+        {
+          "number": 699,
+          "focus": "statements MgSO4 therapy preeclampsia"
+        },
+        {
+          "number": 700,
+          "focus": "While moving parturient birthing operating emergency cesarean section prolapsed"
+        },
+        {
+          "number": 701,
+          "focus": "Aortocaval compression starts become significant normal pregnancy many weeks"
+        },
+        {
+          "number": 702,
+          "focus": "agent useful raising gastric just induction emergency cesarean section"
+        },
+        {
+          "number": 703,
+          "focus": "Causes fetal bradycardia include EXCEPT"
+        },
+        {
+          "number": 704,
+          "focus": "cases cerebral palsy conditions"
+        },
+        {
+          "number": 705,
+          "focus": "statements pregnant diabetic EXCEPT"
+        },
+        {
+          "number": 706,
+          "focus": "addition postural component postdural puncture headache PDPH signs symptoms"
+        },
+        {
+          "number": 707,
+          "focus": "Early decelerations occur response"
+        },
+        {
+          "number": 708,
+          "focus": "Agents that useful decreasing incidence shivering cesarean section regional"
+        },
+        {
+          "number": 709,
+          "focus": "umbilical arterial blood sample time emergency cesarean delivery shows"
+        },
+        {
+          "number": 710,
+          "focus": "frequent condition requiring blood transfusions cesarean delivery"
+        },
+        {
+          "number": 711,
+          "focus": "appropriate techniques drug doses used resuscitating depressed term newborn"
+        },
+        {
+          "number": 712,
+          "focus": "vaginal delivery epidural healthy baby born gravida para noted"
+        },
+        {
+          "number": 713,
+          "focus": "Compared healthy primigravida conditions associated significantly higher incidence hypertensive"
+        },
+        {
+          "number": 714,
+          "focus": "Adverse effects mother associated aortocaval compression gravid uterus include"
+        },
+        {
+          "number": 715,
+          "focus": "statements pregnant abusing cocaine"
+        },
+        {
+          "number": 716,
+          "focus": "Each when advising surgeon perform infiltration emergency cesarean delivery"
+        },
+        {
+          "number": 717,
+          "focus": "primiparous cesarean section breech position prehydration saline spinal performed"
+        },
+        {
+          "number": 718,
+          "focus": "been dilation evacuation weeks some persistent bleeding cramping expulsion"
+        },
+        {
+          "number": 719,
+          "focus": "treatments proven effective decreasing incidence PDPHs accidental dural puncture"
+        },
+        {
+          "number": 720,
+          "focus": "Factors associated advanced molar pregnancy week size uterus include"
+        },
+        {
+          "number": 721,
+          "focus": "Refractory cardiac arrest rapid unintentional injection local anesthetics"
+        },
+        {
+          "number": 722,
+          "focus": "American Society Regional ASRA guidelines treatment local systemic toxicity"
+        },
+        {
+          "number": 723,
+          "focus": "Transient neurologic syndrome commonly seen spinal injection local"
+        },
+        {
+          "number": 724,
+          "focus": "have well-working T10 labor epidural questionable difficult airway have"
+        },
+        {
+          "number": 725,
+          "focus": "local SHORTEST plasma half-life being injected into epidural space"
+        }
+      ]
+    },
+    {
+      "file": "text/part0016_split_001.html",
+      "title": "Neurologic Physiology and Anesthesia",
+      "qFrom": 726,
+      "qTo": 787,
+      "declaredCount": 62,
+      "detectedQuestions": 62,
+      "category": "neuroanesthesia",
+      "keywords": "neurophysiology and neuroanesthesia",
+      "questions": [
+        {
+          "number": 726,
+          "focus": "subarachnoid hemorrhage intensive care serum sodium hour urine sodium"
+        },
+        {
+          "number": 727,
+          "focus": "Intracranial hypertension defined sustained increase intracranial pressure"
+        },
+        {
+          "number": 728,
+          "focus": "Calculate cerebral perfusion pressure data blood pressure heart rate"
+        },
+        {
+          "number": 729,
+          "focus": "statements cerebrospinal fluid healthy adult"
+        },
+        {
+          "number": 730,
+          "focus": "what percentage does cerebral blood flow change each decrease"
+        },
+        {
+          "number": 731,
+          "focus": "intravenous induction agents relatively contraindicated intracranial hypertension"
+        },
+        {
+          "number": 732,
+          "focus": "term cerebral steal refers situation that occurs brain when"
+        },
+        {
+          "number": 733,
+          "focus": "resection large frontal lobe intracranial tumor Preoperatively alert oriented"
+        },
+        {
+          "number": 734,
+          "focus": "anesthetized resection supratentorial tumor Preoperatively lethargic disoriented adversely alter"
+        },
+        {
+          "number": 735,
+          "focus": "anesthetized resection temporal lobe tumor Preoperatively lethargic confused induction"
+        },
+        {
+          "number": 736,
+          "focus": "Normal global cerebral blood flow"
+        },
+        {
+          "number": 737,
+          "focus": "remains constant between cerebral perfusion pressure"
+        },
+        {
+          "number": 738,
+          "focus": "concerning vagal nerve stimulator treatment medically refractory seizures EXCEPT"
+        },
+        {
+          "number": 739,
+          "focus": "concerning autonomic hyperreflexia"
+        },
+        {
+          "number": 740,
+          "focus": "What normal cerebral metabolic rate oxygen CMRO2 minute"
+        },
+        {
+          "number": 741,
+          "focus": "girl severe scoliosis spine maintained propofol remifentanil N2O Neurologic"
+        },
+        {
+          "number": 742,
+          "focus": "each decrease body temperature much will cerebral metabolic rate"
+        },
+        {
+          "number": 743,
+          "focus": "carpenter treated closed head injury sustained days earlier falling"
+        },
+        {
+          "number": 744,
+          "focus": "posterior fossa sitting position sensitive means detecting venous embolism"
+        },
+        {
+          "number": 745,
+          "focus": "When intracranial hypertension exists main initial compensatory mechanism body"
+        },
+        {
+          "number": 746,
+          "focus": "Administration vecuronium spinal interfere monitoring"
+        },
+        {
+          "number": 747,
+          "focus": "safely imaged magnetic resonance imaging scanner conventional versions monitors"
+        },
+        {
+          "number": 748,
+          "focus": "What minimum quantity intracardiac that detected precordial Doppler"
+        },
+        {
+          "number": 749,
+          "focus": "drugs high doses CANNOT produce isoelectric electroencephalogram"
+        },
+        {
+          "number": 750,
+          "focus": "statements concerning cerebral blood flow"
+        },
+        {
+          "number": 751,
+          "focus": "posterior fossa sitting position multiorifice central venous catheter inserted"
+        },
+        {
+          "number": 752,
+          "focus": "what level cerebral blood flow does start show signs"
+        },
+        {
+          "number": 753,
+          "focus": "What effect does cerebral ischemia have autoregulation"
+        },
+        {
+          "number": 754,
+          "focus": "rapid maneuver available lowering large intracranial mass"
+        },
+        {
+          "number": 755,
+          "focus": "What effect does propofol have CO2 responsiveness cerebral vasculature"
+        },
+        {
+          "number": 756,
+          "focus": "Cerebral autoregulation remain intact"
+        },
+        {
+          "number": 757,
+          "focus": "resection astrocytoma sitting position suddenly hypotension heard precordial Doppler"
+        },
+        {
+          "number": 758,
+          "focus": "sequela venous embolism posterior fossa upright position"
+        },
+        {
+          "number": 759,
+          "focus": "anxious Electrocorticography ECoGH monitoring identify epileptogenic foci seizure drugs"
+        },
+        {
+          "number": 760,
+          "focus": "long stroke deferred surgical procedure"
+        },
+        {
+          "number": 761,
+          "focus": "anesthetized propofol infusion remifentanil infusion scoliosis repair SSEP monitoring"
+        },
+        {
+          "number": 762,
+          "focus": "scoliosis Harrington SSEP monitoring administered desflurane nitrous oxide fentanyl"
+        },
+        {
+          "number": 763,
+          "focus": "craniotomy resection large astrocytoma administration isoflurane arterial blood sampling"
+        },
+        {
+          "number": 764,
+          "focus": "sustaining closed head injury motor vehicle accident Each useful"
+        },
+        {
+          "number": 765,
+          "focus": "spontaneous ruptured intracranial aneurysm This does have signs concomitant"
+        },
+        {
+          "number": 766,
+          "focus": "frequency ranges seen normal awake"
+        },
+        {
+          "number": 767,
+          "focus": "signs symptoms emergency evaluation T-wave inversion prolongation interval waves"
+        },
+        {
+          "number": 768,
+          "focus": "pharmacologic agents have effect transcranial motor evoked potentials MEPs"
+        },
+        {
+          "number": 769,
+          "focus": "medically refractory Parkinson disease deep brain stimulation Each statements"
+        },
+        {
+          "number": 770,
+          "focus": "decreased"
+        },
+        {
+          "number": 771,
+          "focus": "statements concerning blood supply central nervous system"
+        },
+        {
+          "number": 772,
+          "focus": "sustaining cervical spine injury quadriplegia motor vehicle accident first"
+        },
+        {
+          "number": 773,
+          "focus": "Signs symptoms intracranial hypertension include"
+        },
+        {
+          "number": 774,
+          "focus": "transient ischemic attacks carotid endarterectomy monitoring appropriate management this"
+        },
+        {
+          "number": 775,
+          "focus": "Anesthetics that decrease include"
+        },
+        {
+          "number": 776,
+          "focus": "Therapy that useful treatment cerebral vasospasm includes EXCEPT"
+        },
+        {
+          "number": 777,
+          "focus": "associated acromegalic transsphenoidal hypophysectomy EXCEPT"
+        },
+        {
+          "number": 778,
+          "focus": "autoregulatory curve shifted right"
+        },
+        {
+          "number": 779,
+          "focus": "Cerebral autoregulation abolished"
+        },
+        {
+          "number": 780,
+          "focus": "Etomidate does EXCEPT"
+        },
+        {
+          "number": 781,
+          "focus": "motor vehicle accident head trauma operating repair facial lacerations"
+        },
+        {
+          "number": 782,
+          "focus": "resection grade astrocytoma serum sodium urine sodium Therapy include"
+        },
+        {
+          "number": 783,
+          "focus": "supratentorial astrocytoma craniotomy tumor debulking wife states been somnolent"
+        },
+        {
+          "number": 784,
+          "focus": "scan were become trapped scanner large metallic object appropriate"
+        },
+        {
+          "number": 785,
+          "focus": "posterior cervical decompression sitting position Induction tracheal intubation uneventful"
+        },
+        {
+          "number": 786,
+          "focus": "head injuries increased hyperventilation typically limited Paco2 because additional"
+        },
+        {
+          "number": 787,
+          "focus": "arrives emergency department ambulance being while riding motorcycle wearing"
+        }
+      ]
+    },
+    {
+      "file": "text/part0017_split_002.html",
+      "title": "Anatomy, Regional Anesthesia, and Pain Management",
+      "qFrom": 788,
+      "qTo": 897,
+      "declaredCount": 110,
+      "detectedQuestions": 110,
+      "category": "regional",
+      "keywords": "regional anesthesia, anatomy, pain",
+      "questions": [
+        {
+          "number": 788,
+          "focus": "example neuropathic pain"
+        },
+        {
+          "number": 789,
+          "focus": "techniques effective treatment pruritus administration neuraxial opiates"
+        },
+        {
+          "number": 790,
+          "focus": "MAXIMUM dose lidocaine containing epinephrine that administered major regional"
+        },
+        {
+          "number": 791,
+          "focus": "concentrations epinephrine corresponds mixture"
+        },
+        {
+          "number": 792,
+          "focus": "comorbidities other than osteoarthrosis spinal replacement takes nonsteroidal anti-inflammatory"
+        },
+        {
+          "number": 793,
+          "focus": "EARLIEST sign lidocaine toxicity high blood level"
+        },
+        {
+          "number": 794,
+          "focus": "analgesic effect similar epidural administration morphine achieved dose intrathecal"
+        },
+        {
+          "number": 795,
+          "focus": "peripheral nerves become injured"
+        },
+        {
+          "number": 796,
+          "focus": "important disadvantage interscalene brachial plexus block compared other approaches"
+        },
+        {
+          "number": 797,
+          "focus": "lower-extremity spinal statements concerning immediate physiologic response surgical incision"
+        },
+        {
+          "number": 798,
+          "focus": "snap felt just entering epidural space represents passage through"
+        },
+        {
+          "number": 799,
+          "focus": "common element thought present cases cauda equina syndrome continuous"
+        },
+        {
+          "number": 800,
+          "focus": "When performing single-shot spinal level block motor sensory sympathetic"
+        },
+        {
+          "number": 801,
+          "focus": "persistent prolonged thoracic pain herpes zoster infection treatments efficacious"
+        },
+        {
+          "number": 802,
+          "focus": "deep peroneal nerve innervates"
+        },
+        {
+          "number": 803,
+          "focus": "arrangement local anesthetics order their ability produce cardiotoxicity"
+        },
+        {
+          "number": 804,
+          "focus": "Allodynia defined"
+        },
+        {
+          "number": 805,
+          "focus": "primary mechanism action tetracaine terminated when used spinal"
+        },
+        {
+          "number": 806,
+          "focus": "Complex regional pain syndrome CRPS type reflex sympathetic dystrophy"
+        },
+        {
+          "number": 807,
+          "focus": "primary determinant local potency"
+        },
+        {
+          "number": 808,
+          "focus": "have GREATEST effect level sensory blockade subarachnoid injection hyperbaric"
+        },
+        {
+          "number": 809,
+          "focus": "local anesthetics produce LOWEST concentration fetus relative maternal serum"
+        },
+        {
+          "number": 810,
+          "focus": "Severe hypotension associated high spinal caused primarily"
+        },
+        {
+          "number": 811,
+          "focus": "concerning phantom limb pain"
+        },
+        {
+          "number": 812,
+          "focus": "regional Bier block"
+        },
+        {
+          "number": 813,
+          "focus": "spinal anatomy spinal"
+        },
+        {
+          "number": 814,
+          "focus": "Four days left total arthroplasty obese complains severe back"
+        },
+        {
+          "number": 815,
+          "focus": "choices consistent limb affected complex regional pain syndrome CRPS"
+        },
+        {
+          "number": 816,
+          "focus": "MAIN advantage neurolytic nerve blockade phenol versus alcohol"
+        },
+        {
+          "number": 817,
+          "focus": "orchiectomy prostate cancer selected spinal What minimum dermatomal level"
+        },
+        {
+          "number": 818,
+          "focus": "artery Adamkiewicz frequently arises aorta spinal level"
+        },
+        {
+          "number": 819,
+          "focus": "local longest elimination half-time"
+        },
+        {
+          "number": 820,
+          "focus": "Important landmarks performing sciatic nerve block classic approach Labat"
+        },
+        {
+          "number": 821,
+          "focus": "carotid endarterectomy deep cervical plexus nerve block complications this"
+        },
+        {
+          "number": 822,
+          "focus": "retrobulbar block anesthetizes each nerves EXCEPT"
+        },
+        {
+          "number": 823,
+          "focus": "muscles larynx innervated external branch superior laryngeal nerve"
+        },
+        {
+          "number": 824,
+          "focus": "agents acceptable Bier block EXCEPT"
+        },
+        {
+          "number": 825,
+          "focus": "stellate ganglion lies closest proximity vascular structures"
+        },
+        {
+          "number": 826,
+          "focus": "structures antecubital fossa medial"
+        },
+        {
+          "number": 827,
+          "focus": "epidural total knee arthroplasty complains sharp sustained pain radiating"
+        },
+        {
+          "number": 828,
+          "focus": "Cutaneous innervation plantar surface foot provided"
+        },
+        {
+          "number": 829,
+          "focus": "army officer unable oppose left thumb left little finger"
+        },
+        {
+          "number": 830,
+          "focus": "hemorrhoidectomy mild chronic obstructive pulmonary disease hypertension traumatic foot"
+        },
+        {
+          "number": 831,
+          "focus": "recurrent laryngeal nerve were transected bilaterally vocal cords"
+        },
+        {
+          "number": 832,
+          "focus": "total knee arthroplasty spinal days later complains severe headache"
+        },
+        {
+          "number": 833,
+          "focus": "What order structures cephalad caudad intercostal space"
+        },
+        {
+          "number": 834,
+          "focus": "types regional associated GREATEST serum concentration lidocaine"
+        },
+        {
+          "number": 835,
+          "focus": "Differences local properties account fact that onset epidural block"
+        },
+        {
+          "number": 836,
+          "focus": "diabetes mellitus chronic renal failure dialysis fistula regional needle"
+        },
+        {
+          "number": 837,
+          "focus": "Each statements concerning femoral nerve block EXCEPT"
+        },
+        {
+          "number": 838,
+          "focus": "needle introduced inferior lateral pubic tubercle nerve will close"
+        },
+        {
+          "number": 839,
+          "focus": "common complication associated supraclavicular brachial plexus block"
+        },
+        {
+          "number": 840,
+          "focus": "portion upper extremity innervated brachial plexus"
+        },
+        {
+          "number": 841,
+          "focus": "section brachial plexus blocked supraclavicular block"
+        },
+        {
+          "number": 842,
+          "focus": "celiac plexus block effectively treat pain resulting malignancy involving"
+        },
+        {
+          "number": 843,
+          "focus": "healthy stepped nail bridement wound right great anxious agrees"
+        },
+        {
+          "number": 844,
+          "focus": "administered morphine patient-controlled analgesia pump left total arthroplasty pump"
+        },
+        {
+          "number": 845,
+          "focus": "mechanism low-frequency transcutaneous electrical nerve stimulation TENS units relieving"
+        },
+        {
+          "number": 846,
+          "focus": "Epidural opioids result GREATEST incidence delayed respiratory depression"
+        },
+        {
+          "number": 847,
+          "focus": "reports tingling thumb cesarean section epidural dermatomal level this"
+        },
+        {
+          "number": 848,
+          "focus": "hasten onset increase clinical duration action local provide GREATEST"
+        },
+        {
+          "number": 849,
+          "focus": "concerning neurolytic nerve blocks"
+        },
+        {
+          "number": 850,
+          "focus": "Transient neurologic symptoms spinal associated each EXCEPT"
+        },
+        {
+          "number": 851,
+          "focus": "appropriate ultrasound transducer adjust several factors optimize image regional"
+        },
+        {
+          "number": 852,
+          "focus": "Each associated increased incidence PDPHs EXCEPT"
+        },
+        {
+          "number": 853,
+          "focus": "Each items describes pain abdominal viscera EXCEPT"
+        },
+        {
+          "number": 854,
+          "focus": "blocks LONGEST duration action when bupivacaine epinephrine administered"
+        },
+        {
+          "number": 855,
+          "focus": "statements concerning psoas compartment block EXCEPT"
+        },
+        {
+          "number": 856,
+          "focus": "popliteal block ankle foot other nerve must blocked order"
+        },
+        {
+          "number": 857,
+          "focus": "common complication celiac plexus block"
+        },
+        {
+          "number": 858,
+          "focus": "occipital portion skull sensory innervation"
+        },
+        {
+          "number": 859,
+          "focus": "Each potential complication thoracic paravertebral blocks EXCEPT"
+        },
+        {
+          "number": 860,
+          "focus": "epidural catheter total arthroplasty entire epidural dose administered into"
+        },
+        {
+          "number": 861,
+          "focus": "type diabetic long burning pain right lower extremity spinal"
+        },
+        {
+          "number": 862,
+          "focus": "seizure interscalene brachial plexus block bupivacaine anesthesiologist begins hyperventilate"
+        },
+        {
+          "number": 863,
+          "focus": "Para-aminobenzoic acid metabolite"
+        },
+        {
+          "number": 864,
+          "focus": "concerning peripheral nerve structure function"
+        },
+        {
+          "number": 865,
+          "focus": "morbid fear interscalene block shoulder arthroscopy consisting ropivacaine Much"
+        },
+        {
+          "number": 866,
+          "focus": "According American Society Regional Pain Medicine ASRA practice advisory"
+        },
+        {
+          "number": 867,
+          "focus": "pulmonary embolism right lower lobectomy lung cancer dalteparin Fragmin"
+        },
+        {
+          "number": 868,
+          "focus": "long clopidogrel Plavix central neuraxial block performed"
+        },
+        {
+          "number": 869,
+          "focus": "Addition bicarbonate local anesthetics results"
+        },
+        {
+          "number": 870,
+          "focus": "Through spinal needle pass midline subarachnoid block L3-L4 lumbar"
+        },
+        {
+          "number": 871,
+          "focus": "What epidural dose bupivacaine will give sensory analgesia similar"
+        },
+        {
+          "number": 872,
+          "focus": "Each additives spinal possesses analgesic properties EXCEPT"
+        },
+        {
+          "number": 873,
+          "focus": "local anesthetics inappropriately paired clinical application because properties toxicity"
+        },
+        {
+          "number": 874,
+          "focus": "Discharge criteria PACU reached FASTEST volume epidurally administered local"
+        },
+        {
+          "number": 875,
+          "focus": "caudal block performed sevoflurane bupivacaine epinephrine planned postoperative analgesia"
+        },
+        {
+          "number": 876,
+          "focus": "potential complication stellate ganglion block"
+        },
+        {
+          "number": 877,
+          "focus": "Discontinuation antiplatelet medications days necessary spinal safely administered"
+        },
+        {
+          "number": 878,
+          "focus": "Three days knee arthroscopy spinal complains double vision difficulty"
+        },
+        {
+          "number": 879,
+          "focus": "statements concerning transversus abdominis plane block"
+        },
+        {
+          "number": 880,
+          "focus": "nerves electrically stimulated ankle produce flexion toes"
+        },
+        {
+          "number": 881,
+          "focus": "motor response peripheral nerve stimulation INCORRECTLY paired appropriate nerve"
+        },
+        {
+          "number": 882,
+          "focus": "airway examination mentions that right thumb tingles then becomes"
+        },
+        {
+          "number": 883,
+          "focus": "When performing interscalene block peripheral nerve stimulator note diaphragmatic"
+        },
+        {
+          "number": 884,
+          "focus": "interscalene block becomes hypotensive bradycardic apneic cyanotic cause"
+        },
+        {
+          "number": 885,
+          "focus": "reason that ropivacaine marketed pure enantiomers because form associated"
+        },
+        {
+          "number": 886,
+          "focus": "Nerves that originate sacral plexus include each EXCEPT"
+        },
+        {
+          "number": 887,
+          "focus": "only technique shown prevent anesthetic-related nerve injury peripheral nerve"
+        },
+        {
+          "number": 888,
+          "focus": "axillary block performed healthy athlete quantity bupivacaine injected incrementally"
+        },
+        {
+          "number": 889,
+          "focus": "structure blocked interscalene block addition brachial plexus"
+        },
+        {
+          "number": 890,
+          "focus": "symptoms developing epidural hematoma EXCEPT"
+        },
+        {
+          "number": 891,
+          "focus": "addition nerve fibers nerve fibers carry pain impulses"
+        },
+        {
+          "number": 892,
+          "focus": "intradural mass lesion drug infusion catheter present"
+        },
+        {
+          "number": 893,
+          "focus": "healthy anesthetized sagittal split osteotomy induced propofol hydromorphone vecuronium"
+        },
+        {
+          "number": 894,
+          "focus": "concerning local anesthetics"
+        },
+        {
+          "number": 895,
+          "focus": "Postdural puncture headaches PDPHs"
+        },
+        {
+          "number": 896,
+          "focus": "procedures treatment chronic pain requires localization epidural space epidural"
+        },
+        {
+          "number": 897,
+          "focus": "Each drugs been used treat neuropathic pain Selective inhibition"
+        }
+      ]
+    },
+    {
+      "file": "text/part0018_split_001.html",
+      "title": "Cardiovascular Physiology and Anesthesia",
+      "qFrom": 915,
+      "qTo": 994,
+      "declaredCount": 80,
+      "detectedQuestions": 80,
+      "category": "cardiothoracic",
+      "keywords": "cardiovascular physiology and anesthesia",
+      "questions": [
+        {
+          "number": 915,
+          "focus": "oximetric pulmonary artery catheter placed surgical repair abdominal aortic"
+        },
+        {
+          "number": 916,
+          "focus": "Postoperatively heparin-induced thrombocytopenia type antibody proven anticoagulation aortic valve"
+        },
+        {
+          "number": 917,
+          "focus": "sensitive indicator left ventricular myocardial ischemia"
+        },
+        {
+          "number": 918,
+          "focus": "Oxygen consumption Vo2 measured subject treadmill minute This corresponds"
+        },
+        {
+          "number": 919,
+          "focus": "Accidental injection into peripheral vein result arterial embolism anatomic"
+        },
+        {
+          "number": 920,
+          "focus": "Each placed x-axis curve shown figure EXCEPT"
+        },
+        {
+          "number": 921,
+          "focus": "rhythm strip represents Mark Atlas Cardiovascular Monitoring York Churchill"
+        },
+        {
+          "number": 922,
+          "focus": "revascularization three coronary vessels cardiopulmonary bypass"
+        },
+        {
+          "number": 923,
+          "focus": "anesthetized right hemicolectomy isoflurane nitrous oxide Vecuronium administered facilitate"
+        },
+        {
+          "number": 924,
+          "focus": "While cardiopulmonary bypass coronary artery revascularization noted have bulging"
+        },
+        {
+          "number": 925,
+          "focus": "wave designated arrow produced physiologically Szocik Teig Tremper monitoring"
+        },
+        {
+          "number": 926,
+          "focus": "Anastomosis right atrium Fontan procedure useful surgical treatment each"
+        },
+        {
+          "number": 927,
+          "focus": "what percentage tissue metabolic rate reduced cardiopulmonary bypass"
+        },
+        {
+          "number": 928,
+          "focus": "Effective inflation intra-aortic balloon catheter occur times"
+        },
+        {
+          "number": 929,
+          "focus": "Afterload reduction beneficial noncardiac each conditions EXCEPT"
+        },
+        {
+          "number": 930,
+          "focus": "Administration protamine received heparin result"
+        },
+        {
+          "number": 931,
+          "focus": "primary determinants myocardial consumption important"
+        },
+        {
+          "number": 932,
+          "focus": "Cardiac tamponade associated"
+        },
+        {
+          "number": 933,
+          "focus": "drugs administered endotracheal tube"
+        },
+        {
+          "number": 934,
+          "focus": "blood pressure"
+        },
+        {
+          "number": 935,
+          "focus": "Hypothyroidism hyperthyroidism develop antidysrhythmic drugs"
+        },
+        {
+          "number": 936,
+          "focus": "Calculate systemic vascular resistance dyne-sec cm5 data cardiac output"
+        },
+        {
+          "number": 937,
+          "focus": "Brugada syndrome appendectomy greatest concern this"
+        },
+        {
+          "number": 938,
+          "focus": "sepsis emergency exploratory laparotomy induction tracheal intubation blood pressure"
+        },
+        {
+          "number": 939,
+          "focus": "this rhythm thoracotomy right upper lobe resection Cardioversion planned"
+        },
+        {
+          "number": 940,
+          "focus": "important pathophysiologic difference between pericardial effusion cardiac tamponade"
+        },
+        {
+          "number": 941,
+          "focus": "healthy normal preoperative wide complex tachycardia breast biopsy Blood"
+        },
+        {
+          "number": 942,
+          "focus": "Although adrenergic receptor blockade treatment reentrant tachydysrhythmia associated Romano-Ward"
+        },
+        {
+          "number": 943,
+          "focus": "axial flow left ventricular assist device HeartWare laparoscopic cholecystectomy"
+        },
+        {
+          "number": 944,
+          "focus": "normal person what percentage cardiac output dependent atrial kick"
+        },
+        {
+          "number": 945,
+          "focus": "This arterial waveform consistent"
+        },
+        {
+          "number": 946,
+          "focus": "Using transesophageal echocardiography midesophageal short axis view degrees shows"
+        },
+        {
+          "number": 947,
+          "focus": "left ventricular pressure-volume loop shown figure depicts"
+        },
+        {
+          "number": 948,
+          "focus": "three-vessel coronary artery bypass graft CABG induction pulmonary capillary"
+        },
+        {
+          "number": 949,
+          "focus": "repair abdominal aortic aneurysm wide complex regular tachycardia heart"
+        },
+        {
+          "number": 950,
+          "focus": "known hypertrophic obstructive cardiomyopathy HOCM anesthetized propofol nasally intubated"
+        },
+        {
+          "number": 951,
+          "focus": "pacemakers concept upper tracking rate relevant type device"
+        },
+        {
+          "number": 952,
+          "focus": "Calculate cardiac output data weight hemoglobin concentration arterial blood"
+        },
+        {
+          "number": 953,
+          "focus": "Normal resting myocardial consumption"
+        },
+        {
+          "number": 954,
+          "focus": "HOCM cholecystectomy Immediately induction propofol arterial blood pressure decreases"
+        },
+        {
+          "number": 955,
+          "focus": "moderate aortic stenosis sudden increase heart rate appendectomy ventricular"
+        },
+        {
+          "number": 956,
+          "focus": "concerning purely vasospastic angina EXCEPT"
+        },
+        {
+          "number": 957,
+          "focus": "Normal resting coronary artery blood flow"
+        },
+        {
+          "number": 958,
+          "focus": "Each associated increased incidence rupture catheters EXCEPT"
+        },
+        {
+          "number": 959,
+          "focus": "Allergic reactions protamine occur each EXCEPT"
+        },
+        {
+          "number": 960,
+          "focus": "three-vessel coronary artery bypass Anticoagulation achieved units heparin much"
+        },
+        {
+          "number": 961,
+          "focus": "graph represents Morgan Mikhail Clinical Anesthesiology East Norwalk Appleton"
+        },
+        {
+          "number": 962,
+          "focus": "cardiopulmonary bypass aortic mitral valve replacement uneventful however intensive"
+        },
+        {
+          "number": 963,
+          "focus": "axial flow left anesthetized kidney stone removal left ureter"
+        },
+        {
+          "number": 964,
+          "focus": "dose adenosine necessary convert paroxysmal supraventricular tachycardia PSVT normal"
+        },
+        {
+          "number": 965,
+          "focus": "anesthetized coronary revascularization urinary catheter placed induction coupled temperature"
+        },
+        {
+          "number": 966,
+          "focus": "intraoperative view monitor myocardial ischemia"
+        },
+        {
+          "number": 967,
+          "focus": "cardiopulmonary resuscitation defibrillation health care provider experiencing sudden cardiac"
+        },
+        {
+          "number": 968,
+          "focus": "medications blocks angiotensin receptor"
+        },
+        {
+          "number": 969,
+          "focus": "Untoward effects associated administration sodium bicarbonate massive blood transfusion"
+        },
+        {
+          "number": 970,
+          "focus": "Useful therapy hypercyanotic spells tetralogy Fallot might include EXCEPT"
+        },
+        {
+          "number": 971,
+          "focus": "Sildenafil Viagra belongs same class drugs"
+        },
+        {
+          "number": 972,
+          "focus": "What minimal time angioplasty drug-eluting stent that dual antiplatelet"
+        },
+        {
+          "number": 973,
+          "focus": "Bivalirudin used anticoagulant cardiopulmonary bypass primarily"
+        },
+        {
+          "number": 974,
+          "focus": "anatomic sites associated incidence central line infection"
+        },
+        {
+          "number": 975,
+          "focus": "effects clopidogrel Plavix reversed"
+        },
+        {
+          "number": 976,
+          "focus": "disadvantage port access coronary artery bypass utilizing Vinci robot"
+        },
+        {
+          "number": 977,
+          "focus": "right-sided double-lumen tube will used separate ventilation right left"
+        },
+        {
+          "number": 978,
+          "focus": "maneuvers assuring proper tube raise Pao2 one-lung ventilation double-lumen"
+        },
+        {
+          "number": 979,
+          "focus": "drugs interventions will cause increase heart rate transplanted denervated"
+        },
+        {
+          "number": 980,
+          "focus": "known Wolff-Parkinson-White syndrome wide complex tachycardia hernia Vital signs"
+        },
+        {
+          "number": 981,
+          "focus": "DDD-R pacemaker right hemicolectomy indication pacemaker implantation sick sinus"
+        },
+        {
+          "number": 982,
+          "focus": "main advantage milrinone that lacks side effect compared amrinone"
+        },
+        {
+          "number": 983,
+          "focus": "Systemic inflammatory response syndrome SIRS differs sepsis that SIRS"
+        },
+        {
+          "number": 984,
+          "focus": "Arrange percutaneous insertion sites nearest farthest catheter"
+        },
+        {
+          "number": 985,
+          "focus": "catheter capable continuously monitoring placed coronary artery bypass Just"
+        },
+        {
+          "number": 986,
+          "focus": "terms refers myocardial relaxation diastole"
+        },
+        {
+          "number": 987,
+          "focus": "primary pulmonary hypertension mastectomy Pharmacologic agents that might useful"
+        },
+        {
+          "number": 988,
+          "focus": "function lung volume volume"
+        },
+        {
+          "number": 989,
+          "focus": "hypertrophic cardiomyopathy anesthetized skin grafting suffering third-degree burns legs"
+        },
+        {
+          "number": 990,
+          "focus": "right knee replacement long oxygen saturation while breathing holding"
+        },
+        {
+          "number": 991,
+          "focus": "called postanesthesia care undergone debridement infected sternum aortic valve"
+        },
+        {
+          "number": 992,
+          "focus": "made infusion dopamine mixing dopamine sodium chloride dextrose injection"
+        },
+        {
+          "number": 993,
+          "focus": "returns operating cardiac tamponade three-vessel coronary artery grafting addition"
+        },
+        {
+          "number": 994,
+          "focus": "treatments useful treatment rhythm shown Miller Miller Philadelphia Saunders"
+        }
+      ]
+    }
+  ],
   "categories": {
-    "monitoring": 160,
-    "cardiothoracic": 412,
-    "pharmacology": 487,
-    "pain": 50,
-    "critical care": 154,
-    "airway": 173,
-    "neuroanesthesia": 158,
-    "regional": 163,
-    "obstetric": 101,
-    "pediatric": 142
+    "monitoring": 252,
+    "critical care": 302,
+    "pharmacology": 372,
+    "airway": 254,
+    "pediatric": 150,
+    "obstetric": 166,
+    "neuroanesthesia": 124,
+    "regional": 220,
+    "cardiothoracic": 160
   },
   "difficulties": {
-    "introductory": 664,
-    "intermediate": 668,
-    "advanced": 668
+    "advanced": 671,
+    "intermediate": 671,
+    "introductory": 658
   }
 }

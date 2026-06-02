@@ -1,19 +1,19 @@
-const CACHE_NAME = "anesthesia-board-review-v17-anticoag-install";
+const CACHE_NAME = "anesthesia-board-review-v18-mayo-guided";
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./styles.css?v=17",
-  "./questions.js?v=17",
-  "./app.js?v=17",
-  "./manifest.webmanifest?v=17",
+  "./styles.css?v=18",
+  "./questions.js?v=18",
+  "./app.js?v=18",
+  "./manifest.webmanifest?v=18",
   "./manifest.json",
-  "./icons/favicon-32.png?v=17",
-  "./icons/favicon-48.png?v=17",
-  "./icons/apple-touch-icon.png?v=17",
-  "./icons/icon-192.png?v=17",
-  "./icons/icon-512.png?v=17",
-  "./icons/icon-192.svg?v=17",
-  "./icons/header-logo.svg?v=17",
+  "./icons/favicon-32.png?v=18",
+  "./icons/favicon-48.png?v=18",
+  "./icons/apple-touch-icon.png?v=18",
+  "./icons/icon-192.png?v=18",
+  "./icons/icon-512.png?v=18",
+  "./icons/icon-192.svg?v=18",
+  "./icons/header-logo.svg?v=18",
   "./icons/icon-512.svg"
 ];
 
