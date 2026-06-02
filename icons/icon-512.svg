@@ -1,6 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Anesthesia Board Review icon">
-  <rect width="512" height="512" rx="76" fill="#14645f"/>
-  <path d="M128 326c0-69 56-125 125-125h24c69 0 125 56 125 125v27H128v-27Z" fill="#f7faf9"/>
-  <path d="M187 197c0-43 35-78 78-78s78 35 78 78v48H187v-48Z" fill="#d8e2df"/>
-  <path d="M224 315h86M267 272v86" stroke="#14645f" stroke-width="32" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Laryngoscope app icon">
+  <defs>
+    <linearGradient id="bg" x1="78" y1="38" x2="436" y2="474" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#176d68"/>
+      <stop offset="1" stop-color="#0b403e"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="128" y1="151" x2="412" y2="346" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7fbfa"/>
+      <stop offset=".56" stop-color="#dce8e5"/>
+      <stop offset="1" stop-color="#aebfba"/>
+    </linearGradient>
+    <filter id="shadow" x="54" y="70" width="410" height="390" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#062b29" flood-opacity=".32"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="84" fill="url(#bg)"/>
+  <circle cx="388" cy="122" r="42" fill="#d7eee9" opacity=".22"/>
+  <g filter="url(#shadow)">
+    <path d="M164 330 116 168c-5-17 5-35 22-40l40-12c17-5 35 5 40 22l48 162c5 17-5 35-22 40l-40 12c-17 5-35-5-40-22Z" fill="#f8fbfa"/>
+    <path d="M150 163 199 327" fill="none" stroke="#78928d" stroke-width="18" stroke-linecap="round"/>
+    <path d="M196 148 248 323" fill="none" stroke="#cddbd8" stroke-width="10" stroke-linecap="round" opacity=".75"/>
+    <path d="M222 315c42-19 82-44 119-76 36-31 61-57 75-77 7-10 22-3 18 9-11 35-34 72-69 112-40 45-88 78-145 98-22 8-46-4-54-26l-1-3 57-37Z" fill="url(#metal)"/>
+    <path d="M250 313c31-15 61-35 89-59 24-21 43-41 56-59" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" opacity=".72"/>
+    <path d="M238 353c39-15 76-36 110-64 30-25 53-50 69-74" fill="none" stroke="#617a76" stroke-width="12" stroke-linecap="round" opacity=".52"/>
+    <circle cx="203" cy="332" r="18" fill="#f5c96b"/>
+    <circle cx="203" cy="332" r="7" fill="#fff4c7"/>
+  </g>
 </svg>
