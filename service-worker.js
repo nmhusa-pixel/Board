@@ -1,10 +1,15 @@
-const CACHE_NAME = "anesthesia-board-review-v11";
+const CACHE_NAME = "anesthesia-board-review-v12";
 const APP_ASSETS = [
   "index.html",
   "styles.css",
   "questions.js",
   "app.js",
   "manifest.webmanifest",
+  "icons/favicon-32.png",
+  "icons/favicon-48.png",
+  "icons/apple-touch-icon.png",
+  "icons/icon-192.png",
+  "icons/icon-512.png",
   "icons/icon-192.svg",
   "icons/icon-512.svg"
 ];
