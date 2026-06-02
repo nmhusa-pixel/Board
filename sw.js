@@ -1,4 +1,4 @@
-const CACHE_NAME = "anesthesia-board-review-v15-legacy-escape";
+const CACHE_NAME = "anesthesia-board-review-v15-anticoag-pattern";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -7,7 +7,6 @@ const APP_SHELL = [
   "./app.js?v=15",
   "./manifest.webmanifest?v=15",
   "./manifest.json",
-  "./sw.js?v=15",
   "./icons/favicon-32.png?v=15",
   "./icons/favicon-48.png?v=15",
   "./icons/apple-touch-icon.png?v=15",

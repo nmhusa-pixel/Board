@@ -56,6 +56,16 @@
     );
   }
 
+  function updateInstallButton() {
+    if (isStandalone()) {
+      els.installButton.textContent = "Installed";
+      els.installButton.disabled = true;
+      return;
+    }
+    els.installButton.textContent = "Install App";
+    els.installButton.disabled = false;
+  }
+
   function uniqueValues(key) {
     return [...new Set(questions.map((q) => q[key]).filter(Boolean))].sort();
   }
@@ -271,8 +281,7 @@
   window.addEventListener("beforeinstallprompt", (event) => {
     event.preventDefault();
     deferredInstallPrompt = event;
-    els.installButton.disabled = false;
-    els.installButton.textContent = "Install App";
+    updateInstallButton();
   });
 
   els.installButton.addEventListener("click", async () => {
@@ -286,18 +295,25 @@
     if (choice.outcome === "accepted") {
       els.installButton.textContent = "Installed";
       els.installButton.disabled = true;
+    } else {
+      updateInstallButton();
     }
   });
 
   window.addEventListener("appinstalled", () => {
     deferredInstallPrompt = null;
-    els.installButton.textContent = "Installed";
-    els.installButton.disabled = true;
+    updateInstallButton();
   });
 
-  if ("serviceWorker" in navigator) {
+  updateInstallButton();
+
+  if ("serviceWorker" in navigator && ["http:", "https:"].includes(window.location.protocol)) {
     window.addEventListener("load", () => {
-      navigator.serviceWorker.register("service-worker.js");
+      navigator.serviceWorker.register("./sw.js?v=15").then((registration) => {
+        registration.update();
+      }).catch(() => {
+        // The app still works online when service worker registration is unavailable.
+      });
     });
   }
 
