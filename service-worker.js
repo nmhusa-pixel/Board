@@ -1,4 +1,4 @@
-const CACHE_NAME = "anesthesia-board-review-v18-legacy-escape";
+const CACHE_NAME = "anesthesia-board-review-v19-legacy-escape";
 const APP_SHELL = [
   "./",
   "./index.html",

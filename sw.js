@@ -1,19 +1,19 @@
-const CACHE_NAME = "anesthesia-board-review-v18-mayo-guided";
+const CACHE_NAME = "anesthesia-board-review-v19-mayo-guided-natural-stems";
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./styles.css?v=18",
-  "./questions.js?v=18",
-  "./app.js?v=18",
-  "./manifest.webmanifest?v=18",
+  "./styles.css?v=19",
+  "./questions.js?v=19",
+  "./app.js?v=19",
+  "./manifest.webmanifest?v=19",
   "./manifest.json",
-  "./icons/favicon-32.png?v=18",
-  "./icons/favicon-48.png?v=18",
-  "./icons/apple-touch-icon.png?v=18",
-  "./icons/icon-192.png?v=18",
-  "./icons/icon-512.png?v=18",
-  "./icons/icon-192.svg?v=18",
-  "./icons/header-logo.svg?v=18",
+  "./icons/favicon-32.png?v=19",
+  "./icons/favicon-48.png?v=19",
+  "./icons/apple-touch-icon.png?v=19",
+  "./icons/icon-192.png?v=19",
+  "./icons/icon-512.png?v=19",
+  "./icons/icon-192.svg?v=19",
+  "./icons/header-logo.svg?v=19",
   "./icons/icon-512.svg"
 ];
 

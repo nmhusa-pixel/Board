@@ -295,7 +295,7 @@
 
   if ("serviceWorker" in navigator && ["http:", "https:"].includes(window.location.protocol)) {
     window.addEventListener("load", () => {
-      navigator.serviceWorker.register("./sw.js?v=18").then((registration) => {
+      navigator.serviceWorker.register("./sw.js?v=19").then((registration) => {
         registration.update();
       }).catch(() => {
         // The app still works online when service worker registration is unavailable.
