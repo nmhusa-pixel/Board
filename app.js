@@ -6,9 +6,11 @@
     filter: {
       search: "",
       category: "all",
+      chapter: "all",
       difficulty: "all"
     },
     mode: "exam",
+    openChapter: null,
     examOrder: [],
     examSignature: ""
   };
@@ -21,6 +23,7 @@
     filteredCount: document.getElementById("filteredCount"),
     searchInput: document.getElementById("searchInput"),
     categoryFilter: document.getElementById("categoryFilter"),
+    chapterFilter: document.getElementById("chapterFilter"),
     difficultyFilter: document.getElementById("difficultyFilter"),
     modeSelect: document.getElementById("modeSelect"),
     questionList: document.getElementById("questionList"),
@@ -35,6 +38,8 @@
     nextQuestion: document.getElementById("nextQuestion"),
     explanationPanel: document.getElementById("explanationPanel"),
     explanationText: document.getElementById("explanationText"),
+    choiceRationales: document.getElementById("choiceRationales"),
+    topicText: document.getElementById("topicText"),
     referenceText: document.getElementById("referenceText"),
     tagText: document.getElementById("tagText"),
     keywordText: document.getElementById("keywordText")
@@ -60,12 +65,47 @@
     return [...new Set(questions.map((q) => q[key]).filter(Boolean))].sort();
   }
 
+  function getQuestionChapter(question) {
+    const tags = question.tags || [];
+    if (tags[2] && !/^source item /i.test(tags[2])) return tags[2];
+    const locator = question.reference && question.reference.locator;
+    if (locator) return locator.split(";")[0].trim();
+    return "Unassigned chapter";
+  }
+
+  function displayChapter(chapter) {
+    if (/^Questions on pharmacology and drug used in anesthesia/i.test(chapter)) {
+      return "Pharmacology and Intravenous Drugs";
+    }
+    return chapter;
+  }
+
+  function uniqueChapters() {
+    const seen = new Set();
+    const chapters = [];
+    questions.forEach((question) => {
+      const chapter = getQuestionChapter(question);
+      if (!seen.has(chapter)) {
+        seen.add(chapter);
+        chapters.push(chapter);
+      }
+    });
+    return chapters;
+  }
+
   function populateFilters() {
     uniqueValues("category").forEach((category) => {
       const option = document.createElement("option");
       option.value = category;
       option.textContent = titleCase(category);
       els.categoryFilter.appendChild(option);
+    });
+
+    uniqueChapters().forEach((chapter) => {
+      const option = document.createElement("option");
+      option.value = chapter;
+      option.textContent = displayChapter(chapter);
+      els.chapterFilter.appendChild(option);
     });
 
     uniqueValues("difficulty").forEach((difficulty) => {
@@ -86,10 +126,13 @@
     const term = state.filter.search.trim().toLowerCase();
     return questions.filter((question) => {
       const categoryMatch = state.filter.category === "all" || question.category === state.filter.category;
+      const chapterMatch = state.filter.chapter === "all" || getQuestionChapter(question) === state.filter.chapter;
       const difficultyMatch = state.filter.difficulty === "all" || question.difficulty === state.filter.difficulty;
       const haystack = [
         question.title,
         question.category,
+        getQuestionChapter(question),
+        displayChapter(getQuestionChapter(question)),
         question.difficulty,
         question.stem,
         ...(question.tags || []),
@@ -98,7 +141,7 @@
         question.reference && question.reference.locator,
         question.reference && question.reference.note
       ].join(" ").toLowerCase();
-      return categoryMatch && difficultyMatch && (!term || haystack.includes(term));
+      return categoryMatch && chapterMatch && difficultyMatch && (!term || haystack.includes(term));
     });
   }
 
@@ -127,6 +170,21 @@
     return state.examOrder.map((id) => byId.get(id)).filter(Boolean);
   }
 
+  function groupByChapter(items) {
+    const groups = [];
+    const byChapter = new Map();
+    items.forEach((question) => {
+      const chapter = getQuestionChapter(question);
+      if (!byChapter.has(chapter)) {
+        const group = { chapter, questions: [] };
+        byChapter.set(chapter, group);
+        groups.push(group);
+      }
+      byChapter.get(chapter).questions.push(question);
+    });
+    return groups;
+  }
+
   function renderStats(filtered) {
     const answeredItems = Object.values(state.answered);
     const correct = answeredItems.filter((item) => item.correct).length;
@@ -138,10 +196,25 @@
 
   function renderList(filtered) {
     els.questionList.innerHTML = "";
+    if (state.mode === "study") {
+      renderStudyChapterList(filtered);
+      return;
+    }
+
+    let activeChapter = "";
+    const showChapterHeaders = state.filter.chapter !== "all";
     filtered.forEach((question, index) => {
+      const chapter = getQuestionChapter(question);
+      if (showChapterHeaders && chapter !== activeChapter) {
+        const divider = document.createElement("div");
+        divider.className = "chapter-divider";
+        divider.textContent = displayChapter(chapter);
+        els.questionList.appendChild(divider);
+        activeChapter = chapter;
+      }
       const button = document.createElement("button");
       const displayTitle = state.mode === "exam" ? `Question ${index + 1}` : `${index + 1}. ${question.title}`;
-      const primaryMeta = state.mode === "exam" ? "Exam Mode" : titleCase(question.category);
+      const primaryMeta = state.mode === "exam" ? "Exam Mode" : displayChapter(chapter);
       button.type = "button";
       button.className = `question-row${question.id === state.activeId ? " active" : ""}`;
       button.innerHTML = `
@@ -171,13 +244,13 @@
     state.activeId = activeQuestion.id;
     const answerState = state.answered[activeQuestion.id];
 
-    els.questionCategory.textContent = state.mode === "exam" ? "Exam Mode" : titleCase(activeQuestion.category);
+    els.questionCategory.textContent = state.mode === "exam" ? "Exam Mode" : displayChapter(getQuestionChapter(activeQuestion));
     els.questionDifficulty.textContent = titleCase(activeQuestion.difficulty);
     const filteredIndex = filtered.findIndex((question) => question.id === activeQuestion.id);
     const position = filteredIndex >= 0 ? filteredIndex + 1 : 1;
     els.questionPosition.textContent = `${position} of ${Math.max(filtered.length, 1)}`;
     els.progressFill.style.width = `${Math.min(100, Math.max(0, (position / Math.max(filtered.length, 1)) * 100))}%`;
-    els.questionTitle.textContent = state.mode === "exam" ? `Question ${position}` : activeQuestion.title;
+    els.questionTitle.textContent = `Question ${position}`;
     els.questionStem.textContent = activeQuestion.stem;
     els.answers.innerHTML = "";
     els.explanationPanel.hidden = !answerState || state.mode === "exam";
@@ -196,6 +269,8 @@
     });
 
     els.explanationText.textContent = activeQuestion.explanation;
+    renderChoiceRationales(activeQuestion);
+    els.topicText.textContent = activeQuestion.title;
     els.referenceText.textContent = formatReference(activeQuestion.reference);
     els.tagText.textContent = (activeQuestion.tags || []).join(", ");
     els.keywordText.textContent = (activeQuestion.keywords || []).join(", ");
@@ -209,6 +284,79 @@
     };
     localStorage.setItem("abr-answered", JSON.stringify(state.answered));
     render();
+  }
+
+  function renderChoiceRationales(question) {
+    els.choiceRationales.innerHTML = "";
+    const rationales = question.choiceRationales || [];
+    question.choices.forEach((choice, index) => {
+      const correct = index === question.correctIndex;
+      const item = document.createElement("div");
+      item.className = `choice-rationale ${correct ? "correct" : "incorrect"}`;
+      item.innerHTML = `
+        <span class="letter">${String.fromCharCode(65 + index)}</span>
+        <span class="rationale-text">
+          <strong>${escapeHtml(correct ? "Correct answer" : "Distractor")}</strong>
+          ${escapeHtml(rationales[index] || "No option-specific rationale is available for this answer.")}
+        </span>
+      `;
+      els.choiceRationales.appendChild(item);
+    });
+  }
+
+  function renderStudyChapterList(filtered) {
+    const groups = groupByChapter(filtered);
+    const openGroup = groups.find((group) => group.chapter === state.openChapter);
+    if (!openGroup && groups.length) {
+      state.openChapter = state.filter.chapter !== "all" ? state.filter.chapter : null;
+    }
+
+    groups.forEach((group) => {
+      const isOpen = group.chapter === state.openChapter;
+      const answeredCount = group.questions.filter((question) => state.answered[question.id]).length;
+      const chapterButton = document.createElement("button");
+      chapterButton.type = "button";
+      chapterButton.className = `chapter-toggle${isOpen ? " open" : ""}`;
+      chapterButton.setAttribute("aria-expanded", String(isOpen));
+      chapterButton.innerHTML = `
+        <span class="chapter-toggle-main">
+          <span class="chapter-chevron" aria-hidden="true">${isOpen ? "-" : "+"}</span>
+          <span>${escapeHtml(displayChapter(group.chapter))}</span>
+        </span>
+        <span class="chapter-count">${answeredCount}/${group.questions.length}</span>
+      `;
+      chapterButton.addEventListener("click", () => {
+        state.openChapter = isOpen ? null : group.chapter;
+        if (!isOpen && group.questions.length) {
+          state.activeId = group.questions[0].id;
+        }
+        render();
+      });
+      els.questionList.appendChild(chapterButton);
+
+      if (!isOpen) return;
+
+      group.questions.forEach((question, index) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = `question-row nested${question.id === state.activeId ? " active" : ""}`;
+        button.innerHTML = `
+          <span class="row-top">
+            <span class="row-title">Question ${escapeHtml(index + 1)}</span>
+            <span class="row-status">${state.answered[question.id] ? "Answered" : ""}</span>
+          </span>
+          <span class="row-meta">
+            <span>${escapeHtml(titleCase(question.category))}</span>
+            <span>${escapeHtml(titleCase(question.difficulty))}</span>
+          </span>
+        `;
+        button.addEventListener("click", () => {
+          state.activeId = question.id;
+          render();
+        });
+        els.questionList.appendChild(button);
+      });
+    });
   }
 
   function formatReference(reference) {
@@ -246,12 +394,20 @@
       state.filter.category = event.target.value;
       render();
     });
+    els.chapterFilter.addEventListener("change", (event) => {
+      state.filter.chapter = event.target.value;
+      state.openChapter = event.target.value === "all" ? null : event.target.value;
+      state.examSignature = "";
+      state.examOrder = [];
+      render();
+    });
     els.difficultyFilter.addEventListener("change", (event) => {
       state.filter.difficulty = event.target.value;
       render();
     });
     els.modeSelect.addEventListener("change", (event) => {
       state.mode = event.target.value;
+      state.openChapter = state.mode === "study" && state.filter.chapter !== "all" ? state.filter.chapter : null;
       state.examSignature = "";
       state.examOrder = [];
       render();
@@ -295,7 +451,7 @@
 
   if ("serviceWorker" in navigator && ["http:", "https:"].includes(window.location.protocol)) {
     window.addEventListener("load", () => {
-      navigator.serviceWorker.register("./sw.js?v=19").then((registration) => {
+      navigator.serviceWorker.register("./sw.js?v=34").then((registration) => {
         registration.update();
       }).catch(() => {
         // The app still works online when service worker registration is unavailable.

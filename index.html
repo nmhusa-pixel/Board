@@ -8,20 +8,20 @@
     <meta name="apple-mobile-web-app-title" content="Anesthesia MCQ">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <title>Anesthesia Board Review</title>
-    <link rel="manifest" href="manifest.webmanifest?v=19">
-    <link rel="icon" href="icons/favicon-32.png?v=19" sizes="32x32" type="image/png">
-    <link rel="icon" href="icons/favicon-48.png?v=19" sizes="48x48" type="image/png">
-    <link rel="icon" href="icons/icon-192.png?v=19" sizes="192x192" type="image/png">
-    <link rel="icon" href="icons/icon-512.png?v=19" sizes="512x512" type="image/png">
-    <link rel="icon" href="icons/icon-192.svg?v=19" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png?v=19">
-    <link rel="stylesheet" href="styles.css?v=19">
+    <link rel="manifest" href="manifest.webmanifest?v=34">
+    <link rel="icon" href="icons/favicon-32.png?v=34" sizes="32x32" type="image/png">
+    <link rel="icon" href="icons/favicon-48.png?v=34" sizes="48x48" type="image/png">
+    <link rel="icon" href="icons/icon-192.png?v=34" sizes="192x192" type="image/png">
+    <link rel="icon" href="icons/icon-512.png?v=34" sizes="512x512" type="image/png">
+    <link rel="icon" href="icons/icon-192.svg?v=34" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png?v=34">
+    <link rel="stylesheet" href="styles.css?v=34">
   </head>
   <body>
     <header class="app-header">
       <div class="brand-group">
         <div class="brand-mark" aria-hidden="true">
-          <img src="icons/header-logo.svg?v=19" width="44" height="44" alt="">
+          <img src="icons/header-logo.svg?v=34" width="44" height="44" alt="">
         </div>
         <div>
           <p class="eyebrow">Board Review</p>
@@ -30,7 +30,7 @@
         </div>
       </div>
       <div class="header-actions">
-        <span id="buildChip" class="build-chip">v19</span>
+        <span id="buildChip" class="build-chip">v34</span>
         <button id="installButton" class="install-button" type="button">
           <span aria-hidden="true">+</span>
           Install App
@@ -64,6 +64,12 @@
             Category
             <select id="categoryFilter">
               <option value="all">All categories</option>
+            </select>
+          </label>
+          <label>
+            Chapter
+            <select id="chapterFilter">
+              <option value="all">All chapters</option>
             </select>
           </label>
           <label>
@@ -112,7 +118,12 @@
           <section id="explanationPanel" class="explanation" hidden>
             <h3>Explanation</h3>
             <p id="explanationText"></p>
+            <div id="choiceRationales" class="choice-rationales"></div>
             <dl>
+              <div>
+                <dt>Topic</dt>
+                <dd id="topicText"></dd>
+              </div>
               <div>
                 <dt>Reference</dt>
                 <dd id="referenceText"></dd>
@@ -131,7 +142,7 @@
       </section>
     </main>
 
-    <script src="questions.js?v=19"></script>
-    <script src="app.js?v=19"></script>
+    <script src="questions.js?v=34"></script>
+    <script src="app.js?v=34"></script>
   </body>
 </html>

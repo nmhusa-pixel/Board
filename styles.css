@@ -206,7 +206,7 @@ main {
   box-shadow: 0 8px 24px rgba(24, 35, 33, .045);
   display: grid;
   gap: .8rem;
-  grid-template-columns: minmax(220px, 2fr) repeat(3, minmax(140px, 1fr));
+  grid-template-columns: minmax(220px, 2fr) repeat(4, minmax(140px, 1fr));
   padding: .9rem;
 }
 
@@ -321,6 +321,85 @@ input::placeholder {
 
 .question-row.active::before {
   background: var(--accent);
+}
+
+.chapter-divider {
+  background: #eef5f3;
+  border-bottom: 1px solid var(--line);
+  border-top: 1px solid var(--line);
+  color: #40524f;
+  font-size: .72rem;
+  font-weight: 850;
+  letter-spacing: 0;
+  padding: .55rem 1rem;
+  position: sticky;
+  text-transform: uppercase;
+  top: 49px;
+  z-index: 1;
+}
+
+.chapter-toggle {
+  align-items: center;
+  background: #fff;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+  cursor: pointer;
+  display: flex;
+  gap: .75rem;
+  justify-content: space-between;
+  padding: .85rem 1rem;
+  text-align: left;
+  width: 100%;
+}
+
+.chapter-toggle:hover,
+.chapter-toggle.open {
+  background: var(--accent-soft);
+}
+
+.chapter-toggle-main {
+  align-items: center;
+  display: flex;
+  gap: .65rem;
+  min-width: 0;
+}
+
+.chapter-toggle-main span:last-child {
+  font-size: .9rem;
+  font-weight: 820;
+  line-height: 1.35;
+}
+
+.chapter-chevron {
+  align-items: center;
+  background: var(--quiet);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--accent);
+  display: inline-flex;
+  flex: 0 0 auto;
+  font-weight: 900;
+  height: 1.55rem;
+  justify-content: center;
+  width: 1.55rem;
+}
+
+.chapter-count {
+  color: var(--muted);
+  flex: 0 0 auto;
+  font-size: .76rem;
+  font-weight: 820;
+}
+
+.question-row.nested {
+  background: #fbfdfc;
+  padding-left: 2.7rem;
+}
+
+.question-row.nested:hover,
+.question-row.nested.active {
+  background: var(--accent-soft);
 }
 
 .row-top {
@@ -512,6 +591,40 @@ input::placeholder {
 .explanation p {
   line-height: 1.65;
   margin: 0;
+}
+
+.choice-rationales {
+  display: grid;
+  gap: .6rem;
+  margin-top: 1rem;
+}
+
+.choice-rationale {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  display: grid;
+  gap: .55rem;
+  grid-template-columns: 2rem 1fr;
+  line-height: 1.5;
+  padding: .75rem .8rem;
+}
+
+.choice-rationale .letter {
+  margin-top: .05rem;
+}
+
+.choice-rationale.correct {
+  border-color: rgba(31, 122, 82, .55);
+}
+
+.choice-rationale.incorrect {
+  border-color: rgba(166, 63, 66, .35);
+}
+
+.rationale-text strong {
+  display: block;
+  margin-bottom: .18rem;
 }
 
 dl {

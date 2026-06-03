@@ -1,7 +1,8 @@
 {
   "guideEpub": "C:\\Users\\Administrator\\Documents\\Codex\\Anesthesia_ A Comprehensive Review E-Book (Anesthesia a -- Mayo Foundation for Medical Education, Brian A_ Hall, Robert -- 6th Edition, 2019.epub",
-  "questionCount": 2000,
-  "generation": "Mayo review-guided paraphrased board-style bank",
+  "barashEpub": "C:\\Users\\Administrator\\Documents\\Codex\\Barash, Cullen, and Stoelting's Clinical Anesthesia, 9e.epub",
+  "questionCount": 621,
+  "generation": "Unique-stem clinically focused board-style bank expanded with Barash-derived concepts",
   "duplicateGeneratedItems": 0,
   "blueprintChapters": [
     {
@@ -3750,19 +3751,20 @@
     }
   ],
   "categories": {
-    "monitoring": 252,
-    "critical care": 302,
-    "pharmacology": 372,
-    "airway": 254,
-    "pediatric": 150,
-    "obstetric": 166,
-    "neuroanesthesia": 124,
-    "regional": 220,
-    "cardiothoracic": 160
+    "monitoring": 164,
+    "critical care": 121,
+    "pharmacology": 102,
+    "airway": 44,
+    "pediatric": 23,
+    "obstetric": 13,
+    "neuroanesthesia": 29,
+    "regional": 43,
+    "pain": 23,
+    "cardiothoracic": 59
   },
   "difficulties": {
-    "advanced": 671,
-    "intermediate": 671,
-    "introductory": 658
+    "advanced": 208,
+    "intermediate": 207,
+    "introductory": 206
   }
 }
